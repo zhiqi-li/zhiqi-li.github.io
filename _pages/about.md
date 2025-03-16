@@ -24,6 +24,7 @@ My research interests are General visual perception and human-computer and multi
 My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 
 
+
 # 🔥 News
 - *2023-10-10*: In the first Perception Test challenge, We obtain the best performance in Temporal Sound Localisation & runner-up in Temporal Action Localisation. The code of solution is here.
 
@@ -66,16 +67,17 @@ My research interest includes neural machine translation and computer vision. I 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+  - *2023-10-01*: 1st Perception Test Challenge, achieved Top-1 in Temporal Sound Localisation & Top-2 in Temporal Action Localisation.
+  - *2023-01-01*: Won the champion of WSDM Cup 2023 Toloka VQA Challenge at WSDM2023.
+  - *2022-10-01*: Secured 7 Top-1 Rankings in the 2nd Ego4D Challenge at ECCV2022.
+  - *2017-12-01*: Awarded Bronze Medal in the CCPC Final Contest.
+  - *2017-10-01*: Received Bronze Medal in the CCPC Regional Contest.
+  - *2017-10-15*: Earned Silver Medal in the ACM-ICPC Asia Regional Contest.
 
 # 📖 Educations
 - *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
 
 # 💻 Internships
 - *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
