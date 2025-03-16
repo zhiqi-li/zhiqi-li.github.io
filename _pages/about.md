@@ -25,21 +25,29 @@ My research interest includes neural machine translation and computer vision. I 
 
 
 # 🔥 News
-[2023-10-10] In the first Perception Test challenge, We obtain the best performance in Temporal Sound Localisation & runner-up in Temporal Action Localisation. The code of solution is here.
-[2023-08-16] Code of MAT is released in here.
-[2023-07-14] Our paper MAT is accepted by ICCV.
-[2023-05-22] We present a novel Video Sequence Understanding Framework VideoLLM.
-[2023-04-03] BasicTAD is accepted by CVIU.
-[2023-01-17] Our team wins the champion of WSDM Cup 2023 Toloka VQA Challenge.
-[2022-11-17] 🎂 We provide the final Ego4D report and the code.
-[2022-09-19] Our team wins Top-1 rankings in 7 tracks of Ego4D ECCV2022 Challenge.
-[2022-09-15] We have released the source code of BasicTAD.
-[2022-06-21] Code of DCAN is released in here.
-[2022-05-05] We present the BasicTAD, an end-to-end TAD baseline method.
-[2021-12-01] Our paper DCAN is accepted by AAAI.
+- *2023-10-10*: In the first Perception Test challenge, We obtain the best performance in Temporal Sound Localisation & runner-up in Temporal Action Localisation. The code of solution is here.
 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2023-08-16*: Code of MAT is released in here.
+
+- *2023-07-14*: Our paper MAT is accepted by ICCV.
+
+- *2023-05-22*: We present a novel Video Sequence Understanding Framework VideoLLM.
+
+- *2023-04-03*: BasicTAD is accepted by CVIU.
+
+- *2023-01-17*: Our team wins the champion of WSDM Cup 2023 Toloka VQA Challenge.
+
+- *2022-11-17*: 🎂 We provide the final Ego4D report and the code.
+
+- *2022-09-19*: Our team wins Top-1 rankings in 7 tracks of Ego4D ECCV2022 Challenge.
+
+- *2022-09-15*: We have released the source code of BasicTAD.
+
+- *2022-06-21*: Code of DCAN is released in here.
+
+- *2022-05-05*: We present the BasicTAD, an end-to-end TAD baseline method.
+
+- *2021-12-01*: Our paper DCAN is accepted by AAAI.
 
 # 📝 Publications 
 
