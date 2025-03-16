@@ -17,12 +17,27 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I‘m pursuing a Ph.D. in Computer Science at Nanjing University, advised by Prof. Limin Wang and Prof. Tong Lu.
+
+My research interests are General visual perception and human-computer and multimodal interaction system. I am focusing on video understanding, egocentric vision perception and user-centric visual computing.
 
 My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 
 
 # 🔥 News
+[2023-10-10] In the first Perception Test challenge, We obtain the best performance in Temporal Sound Localisation & runner-up in Temporal Action Localisation. The code of solution is here.
+[2023-08-16] Code of MAT is released in here.
+[2023-07-14] Our paper MAT is accepted by ICCV.
+[2023-05-22] We present a novel Video Sequence Understanding Framework VideoLLM.
+[2023-04-03] BasicTAD is accepted by CVIU.
+[2023-01-17] Our team wins the champion of WSDM Cup 2023 Toloka VQA Challenge.
+[2022-11-17] 🎂 We provide the final Ego4D report and the code.
+[2022-09-19] Our team wins Top-1 rankings in 7 tracks of Ego4D ECCV2022 Challenge.
+[2022-09-15] We have released the source code of BasicTAD.
+[2022-06-21] Code of DCAN is released in here.
+[2022-05-05] We present the BasicTAD, an end-to-end TAD baseline method.
+[2021-12-01] Our paper DCAN is accepted by AAAI.
+
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
