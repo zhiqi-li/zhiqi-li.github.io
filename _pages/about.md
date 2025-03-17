@@ -75,9 +75,7 @@ My research interest includes neural machine translation and computer vision. I 
   - *2017-10-15*: Earned Silver Medal in the ACM-ICPC Asia Regional Contest.
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *20.09 - present*, Nanjing University, Nanjing, China
+- *15.09 - 19.06*, University of South China, Hengyang, China
 
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
