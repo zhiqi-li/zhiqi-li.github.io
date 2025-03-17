@@ -87,6 +87,17 @@ I am focusing on video understanding, egocentric vision perception and user-cent
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVIU</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[BasicTAD: an Astounding RGB-Only Baseline for Temporal Action Detection](https://ojs.aaai.org/index.php/AAAI/article/view/19900/19659)
+
+Min Yang*, **Guo Chen***, Yin-Dong Zheng, Tong Lu, Limin Wang#
+[**PDF**](https://arxiv.org/abs/2205.02717) [**bibtex**](/bibtex/basic.txt) [**code**](https://github.com/MCG-NJU/BasicTAD) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- This work presents a simple yet effective end-to-end training framework for temporal action detection.
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2022</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -99,17 +110,7 @@ I am focusing on video understanding, egocentric vision perception and user-cent
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2022</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[DCAN: Improving Temporal Action Detection via Dual Context Aggregation](https://ojs.aaai.org/index.php/AAAI/article/view/19900/19659)
-
-**Guo Chen**, Yin-Dong Zheng, Limin Wang, Tong Lu#
-
-[**PDF**](https://ojs.aaai.org/index.php/AAAI/article/view/19900/19659) [**bibtex**](/bibtex/dcan.txt) [**code**](https://github.com/cg1177/DCAN) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- This work explored boundary-based methods for temporal action detection and proposed a novel network, termed DCAN, to improve temporal action detection via temporal-level and proposal-level context aggregation.
-</div>
-</div>
+# 📝 Projects
 
 
 
