@@ -17,9 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I‘m pursuing a Ph.D. in Computer Science at Nanjing University, advised by Prof. Limin Wang and Prof. Tong Lu.
+I‘m pursuing a Ph.D. in Computer Science at [Nanjing University](https://en.wikipedia.org/wiki/Nanjing_University), advised by Prof. [Limin Wang](http://wanglimin.github.io/) and Prof. [Tong Lu](https://cs.nju.edu.cn/lutong/index.htm). 
+<!-- Now I'm working at [Shanghai AI Lab](https://www.shlab.org.cn/). -->
 
-My research interests are General visual perception and human-computer and multimodal interaction system. I am focusing on video understanding, egocentric vision perception and user-centric visual computing.
+My research interests are General visual perception and human-computer and multimodal interaction system. 
+I am focusing on video understanding, egocentric vision perception and user-centric visual computing.
 
 My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 
