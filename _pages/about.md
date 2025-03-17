@@ -26,29 +26,29 @@ My research interest includes neural machine translation and computer vision. I 
 
 
 # 🔥 News
-- *2023-10-10*: In the first Perception Test challenge, We obtain the best performance in Temporal Sound Localisation & runner-up in Temporal Action Localisation. The code of solution is here.
+- *2023-10-10*: In the first [Perception Test](https://github.com/google-deepmind/perception_test/tree/main) challenge, We obtain the best performance in Temporal Sound Localisation & runner-up in Temporal Action Localisation. The code of solution is [here](https://github.com/OpenGVLab/perception_test_iccv2023).
 
-- *2023-08-16*: Code of MAT is released in here.
+- *2023-08-16*: Code of [MAT](https://echo0125.github.io/mat/) is released in [here](https://github.com/Echo0125/Memory-and-Anticipation-Transformer).
 
-- *2023-07-14*: Our paper MAT is accepted by ICCV.
+- *2023-07-14*: Our paper [MAT](https://echo0125.github.io/mat/) is accepted by [ICCV](https://iccv2023.thecvf.com/).
 
-- *2023-05-22*: We present a novel Video Sequence Understanding Framework VideoLLM.
+- *2023-05-22*: We present a novel Video Sequence Understanding Framework [VideoLLM](https://arxiv.org/abs/2305.13292).
 
-- *2023-04-03*: BasicTAD is accepted by CVIU.
+- *2023-04-03*: [BasicTAD](https://arxiv.org/abs/2205.02717) is accepted by [CVIU](https://www.sciencedirect.com/journal/computer-vision-and-image-understanding).
 
-- *2023-01-17*: Our team wins the champion of WSDM Cup 2023 Toloka VQA Challenge.
+- *2023-01-17*: Our team wins the champion of [WSDM Cup 2023 Toloka VQA Challenge](https://codalab.lisn.upsaclay.fr/competitions/7434#learn_the_details).
 
-- *2022-11-17*: 🎂 We provide the final Ego4D report and the code.
+- *2022-11-17*: 🎂 We provide the final Ego4D [report](https://arxiv.org/pdf/2211.09529.pdf) and the [code](https://github.com/OpenGVLab/ego4d-eccv2022-solutions).
 
-- *2022-09-19*: Our team wins Top-1 rankings in 7 tracks of Ego4D ECCV2022 Challenge.
+- *2022-09-19*: Our team wins <font color="#dd0000"><strong>Top-1</strong></font> rankings in <font color="#dd0000"><strong>7 tracks</strong></font> of [Ego4D ECCV2022 Challenge](https://ego4d-data.org/workshops/eccv22/).
 
-- *2022-09-15*: We have released the source code of BasicTAD.
+- *2022-09-15*: We have released the [source code](https://github.com/MCG-NJU/BasicTAD) of [BasicTAD](https://arxiv.org/abs/2205.02717).
 
-- *2022-06-21*: Code of DCAN is released in here.
+- *2022-06-21*: Code of [DCAN](https://ojs.aaai.org/index.php/AAAI/article/view/19900) is released in [here](https://github.com/cg1177/DCAN).
 
-- *2022-05-05*: We present the BasicTAD, an end-to-end TAD baseline method.
+- *2022-05-05*: We present the [BasicTAD](https://arxiv.org/abs/2205.02717), an end-to-end TAD baseline method. 
 
-- *2021-12-01*: Our paper DCAN is accepted by AAAI.
+- *2021-12-01*: Our paper [DCAN](https://ojs.aaai.org/index.php/AAAI/article/view/19900) is accepted by [AAAI](https://aaai.org/).
 
 # 📝 Publications 
 
@@ -67,12 +67,12 @@ My research interest includes neural machine translation and computer vision. I 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Honors and Awards
-  - *2023-10-01*: 1st Perception Test Challenge, achieved Top-1 in Temporal Sound Localisation & Top-2 in Temporal Action Localisation.
-  - *2023-01-01*: Won the champion of WSDM Cup 2023 Toloka VQA Challenge at WSDM2023.
-  - *2022-10-01*: Secured 7 Top-1 Rankings in the 2nd Ego4D Challenge at ECCV2022.
-  - *2017-12-01*: Awarded Bronze Medal in the CCPC Final Contest.
-  - *2017-10-01*: Received Bronze Medal in the CCPC Regional Contest.
-  - *2017-10-15*: Earned Silver Medal in the ACM-ICPC Asia Regional Contest.
+  - *2023-10-01*: 1st Perception Test Challenge, **Top-1 and Top-2 Rankings**
+  - *2023-01-01*: WSDM Cup 2023 Toloka VQA Challenge, WSDM2023, **Top-1 Ranking**
+  - *2022-10-01*: 2nd Ego4D Challenge, ECCV2022, **7 Top-1 Rankings**
+  - *2017-12-01*: CCPC Final Contest, **Bronze Medal**
+  - *2017-10-01*: CCPC Regional Contest, **Bronze Medal**
+  - *2017-10-15*: ACM-ICPC Asia Regional Contest, **Silver Medal**
 
 # 📖 Educations
 - *20.09 - present*, Nanjing University, Nanjing, China
