@@ -151,17 +151,18 @@ Yi Wang, Kunchang Li, Yizhuo Li, Yinan He, Bingkun Huang, Zhiyu Zhao, Hongjie Zh
 
 
 - [Video mamba suite: State space model as a versatile alternative for video understanding]([https://github.com](https://arxiv.org/pdf/2403.09626)), **Guo Chen**, Yifei Huang, Jilan Xu, etal. **Arxiv**
-- [Avsegformer: Audio-visual segmentation with transformer]([https://github.com](https://arxiv.org/pdf/2403.09626)), Shengyi Gao, Zhe Chen, **Guo Chen**, etal. **AAAI 2024**
-- [Elan: Enhancing temporal action detection with location awareness]([https://github.com](https://arxiv.org/pdf/2403.09626)), Shengyi Gao, Zhe Chen, **Guo Chen**, etal. **AAAI 2024**
-- [Mrsn: Multi-relation support network for video action detection]([https://github.com](https://arxiv.org/pdf/2403.09626)), Shengyi Gao, Zhe Chen, **Guo Chen**, etal. **AAAI 2024**
-- [Matching compound prototypes for few-shot action recognition]()
-- [Mvbench: A comprehensive multi-modal video understanding benchmark]()
-- [Internvid: A large-scale video-text dataset for multimodal understanding and generation]()
-- [Videollm: Modeling video sequence with large language models]()
-- [Token-Efficient Long Video Understanding for Multimodal LLMs]()
-- [Modeling Fine-Grained Hand-Object Dynamics for Egocentric Video Representation Learning]()
-- [X-Gen: Ego-centric Video Prediction by Watching Exo-centric Videos]()
-- [Vinci: A Real-time Embodied Smart Assistant based on Egocentric Vision-Language Model]()
+- [Avsegformer: Audio-visual segmentation with transformer]([https://github.com](https://ojs.aaai.org/index.php/AAAI/article/view/29104/30087)), Shengyi Gao, Zhe Chen, **Guo Chen**, etal. **AAAI 2024**
+- [Elan: Enhancing temporal action detection with location awareness]([https://github.com](https://ieeexplore.ieee.org/abstract/document/10219585/)), **Guo Chen**, Yin-Dong Zheng, etal. **ICME 2023**
+- [Mrsn: Multi-relation support network for video action detection]([https://github.com](https://ieeexplore.ieee.org/abstract/document/10219718)), Yin-Dong Zheng, **Guo Chen**, etal. **ICME 2023**
+- [Matching compound prototypes for few-shot action recognition](https://link.springer.com/article/10.1007/s11263-024-02017-7), Yifei Huang, Lijin Yang, **Guo Chen**, etal. **IJCV**
+- [Mvbench: A comprehensive multi-modal video understanding benchmark](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_MVBench_A_Comprehensive_Multi-modal_Video_Understanding_Benchmark_CVPR_2024_paper.pdf), Kunchang Li, Yali Wang, Yinan He, Yizhuo Li, Yi Wang, Yi Liu, Zun Wang, Jilan Xu, **Guo Chen**, etal. **CVPR 2024**
+- [Internvid: A large-scale video-text dataset for multimodal understanding and generation](https://arxiv.org/pdf/2307.06942), Yi Wang, Yinan He, Yizhuo Li, Kunchang Li, Jiashuo Yu, Xin Ma, Xinhao Li, **Guo Chen**, etal. **ICLR 2023**
+- [Videollm: Modeling video sequence with large language models](https://arxiv.org/pdf/2305.13292), **Guo Chen**, Yin-Dong Zheng, Jiahao Wang, etal. **Arxiv**
+- [Token-Efficient Long Video Understanding for Multimodal LLMs](https://arxiv.org/pdf/2503.04130), Jindong Jiang, Xiuyu Li, Zhijian Liu, Muyang Li, **Guo Chen**, etal. **Arxiv**
+- [Modeling Fine-Grained Hand-Object Dynamics for Egocentric Video Representation Learning](https://arxiv.org/pdf/2503.00986), Baoqi Pei, Yifei Huang, Jilan Xu, **Guo Chen**, etal. **ICLR 2025**
+- [X-Gen: Ego-centric Video Prediction by Watching Exo-centric Videos](https://openreview.net/forum?id=8J2DrrWDKE), Jilan Xu, Yifei Huang, Baoqi Pei, Junlin Hou, Qingqiu Li, **Guo Chen**, etal. **ICLR 2025**
+- [An Egocentric Vision-Language Model based Portable Real-time Smart Assistant](https://arxiv.org/pdf/2503.04250), Yifei Huang, Jilan Xu, Baoqi Pei, Yuping He, **Guo Chen**, etal. **Arxiv**
+- [FAST: Faster Arbitrarily-Shaped Text Detector with Minimalist Kernel Representation](https://arxiv.org/abs/2111.02394), Zhe Chen, Jiahao Wang, Wenhai Wang, **Guo Chen**, etal. **Arxiv**
 
 
 # 🎖 Honors and Awards
