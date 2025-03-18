@@ -150,7 +150,19 @@ Yi Wang, Kunchang Li, Yizhuo Li, Yinan He, Bingkun Huang, Zhiyu Zhao, Hongjie Zh
 </div>
 
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- [Video mamba suite: State space model as a versatile alternative for video understanding]([https://github.com](https://arxiv.org/pdf/2403.09626)), **Guo Chen**, Yifei Huang, Jilan Xu, etal. **Arxiv**
+- [Avsegformer: Audio-visual segmentation with transformer]([https://github.com](https://arxiv.org/pdf/2403.09626)), Shengyi Gao, Zhe Chen, **Guo Chen**, etal. **AAAI 2024**
+- [Elan: Enhancing temporal action detection with location awareness]([https://github.com](https://arxiv.org/pdf/2403.09626)), Shengyi Gao, Zhe Chen, **Guo Chen**, etal. **AAAI 2024**
+- [Mrsn: Multi-relation support network for video action detection]([https://github.com](https://arxiv.org/pdf/2403.09626)), Shengyi Gao, Zhe Chen, **Guo Chen**, etal. **AAAI 2024**
+- [Matching compound prototypes for few-shot action recognition]()
+- [Mvbench: A comprehensive multi-modal video understanding benchmark]()
+- [Internvid: A large-scale video-text dataset for multimodal understanding and generation]()
+- [Videollm: Modeling video sequence with large language models]()
+- [Token-Efficient Long Video Understanding for Multimodal LLMs]()
+- [Modeling Fine-Grained Hand-Object Dynamics for Egocentric Video Representation Learning]()
+- [X-Gen: Ego-centric Video Prediction by Watching Exo-centric Videos]()
+- [Vinci: A Real-time Embodied Smart Assistant based on Egocentric Vision-Language Model]()
+
 
 # 🎖 Honors and Awards
   - *2024-07-01*: 1st EgoVis Challenge, ECCV2024, **7 Top-1 Rankings**
