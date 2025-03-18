@@ -93,6 +93,7 @@ I am focusing on video understanding, egocentric vision perception and user-cent
 [BasicTAD: an Astounding RGB-Only Baseline for Temporal Action Detection](https://ojs.aaai.org/index.php/AAAI/article/view/19900/19659)
 
 Min Yang*, **Guo Chen***, Yin-Dong Zheng, Tong Lu, Limin Wang#
+
 [**PDF**](https://arxiv.org/abs/2205.02717) [**bibtex**](/bibtex/basic.txt) [**code**](https://github.com/MCG-NJU/BasicTAD) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - This work presents a simple yet effective end-to-end training framework for temporal action detection.
 </div>
@@ -112,13 +113,23 @@ Min Yang*, **Guo Chen***, Yin-Dong Zheng, Tong Lu, Limin Wang#
 
 # 📝 Projects
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV Workshop</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
+[InternVideo-Ego4D: A Pack of Champion Solutions to Ego4D Challenges](https://ojs.aaai.org/index.php/AAAI/article/view/19900/19659)
+
+**Guo Chen***, Sen Xing*, Zhe Chen*, Yi Wang*, Kunchang Li, Yizhuo Li, Yi Liu, Jiahao Wang, Yin-Dong Zheng, Bingkun Huang, Zhiyu Zhao, Junting Pan, Yifei Huang, Zun Wang, Jiashuo Yu, Yinan He, Hongjie Zhang, Tong Lu, Yali Wang, Limin Wang, Yu Qiao#
+
+[**PDF**](https://arxiv.org/pdf/2211.09529.pdf) [**bibtex**](/bibtex/ego4d.txt) [**code**](https://github.com/OpenGVLab/ego4d-eccv2022-solutions) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- This work presents our champion solutions to five tracks at Ego4D challenge.
+</div>
+</div>
 
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Honors and Awards
-  - *2024-07-01*: 1st EgoVis Challenge, ECCV2024, **7 Top-1 Rankings**
+  - *2024-07-01*: <div class="badge">ECCV2024</div><img src='images/500x300.png' alt="sym" width="100%"></div>1st EgoVis Challenge, **7 Top-1 Rankings**
   - *2023-10-01*: 1st Perception Test Challenge, **Top-1 and Top-2 Rankings**
   - *2023-01-01*: WSDM Cup 2023 Toloka VQA Challenge, WSDM2023, **Top-1 Ranking**
   - *2022-10-01*: 2nd Ego4D Challenge, ECCV2022, **7 Top-1 Rankings**
