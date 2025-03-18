@@ -87,19 +87,19 @@ I am focusing on video understanding, egocentric vision perception and user-cent
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2022</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/egoexolearn.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[EgoExoLearn](https://ojs.aaai.org/index.php/AAAI/article/view/19900/19659)
+[Egoexolearn: A dataset for bridging asynchronous ego-and exo-centric view of procedural activities in real world](http://openaccess.thecvf.com/content/CVPR2024/papers/Huang_EgoExoLearn_A_Dataset_for_Bridging_Asynchronous_Ego-_and_Exo-centric_View_CVPR_2024_paper.pdf)
 
 **Guo Chen**, Yin-Dong Zheng, Limin Wang, Tong Lu#
 
-[**PDF**](https://ojs.aaai.org/index.php/AAAI/article/view/19900/19659) [**code**](https://github.com/cg1177/DCAN) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- This work explored boundary-based methods for temporal action detection and proposed a novel network, termed DCAN, to improve temporal action detection via temporal-level and proposal-level context aggregation.
+[**PDF**](http://openaccess.thecvf.com/content/CVPR2024/papers/Huang_EgoExoLearn_A_Dataset_for_Bridging_Asynchronous_Ego-_and_Exo-centric_View_CVPR_2024_paper.pdf) [**code**](https://github.com/OpenGVLab/EgoExoLearn) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- EgoExoLearn is a comprehensive dataset designed to study human ability to map activities across perspectives, featuring 120 hours of egocentric and demonstration videos with gaze data and multimodal annotations, aimed at advancing AI learning through observation, with benchmarks for cross-view tasks.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2022</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/internvl' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Internvl: Scaling up vision foundation models and aligning for generic visual-linguistic tasks](https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_InternVL_Scaling_up_Vision_Foundation_Models_and_Aligning_for_Generic_CVPR_2024_paper.pdf)
