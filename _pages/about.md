@@ -102,12 +102,12 @@ I am focusing on video understanding, egocentric vision perception and user-cent
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2022</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[InternVL](https://ojs.aaai.org/index.php/AAAI/article/view/19900/19659)
+[Internvl: Scaling up vision foundation models and aligning for generic visual-linguistic tasks](https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_InternVL_Scaling_up_Vision_Foundation_Models_and_Aligning_for_Generic_CVPR_2024_paper.pdf)
 
-**Guo Chen**, Yin-Dong Zheng, Limin Wang, Tong Lu#
+Zhe Chen, Jiannan Wu, Wenhai Wang, Weijie Su, **Guo Chen**, Sen Xing, Muyan Zhong, Qinglong Zhang, Xizhou Zhu, Lewei Lu, Bin Li, Ping Luo, Tong Lu, Yu Qiao, Jifeng Dai#
 
-[**PDF**](https://ojs.aaai.org/index.php/AAAI/article/view/19900/19659) [**code**](https://github.com/cg1177/DCAN) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- This work explored boundary-based methods for temporal action detection and proposed a novel network, termed DCAN, to improve temporal action detection via temporal-level and proposal-level context aggregation.
+[**PDF**](https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_InternVL_Scaling_up_Vision_Foundation_Models_and_Aligning_for_Generic_CVPR_2024_paper.pdf) [**code**](https://github.com/OpenGVLab/InternVL) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- We designed a large-scale vision-language foundation model (InternVL) with 6 billion parameters, aligning it progressively with large language models using web-scale image-text data, achieving state-of-the-art performance on 32 visual-linguistic benchmarks, and advancing multi-modal AGI development.
 </div>
 </div>
 
