@@ -202,8 +202,6 @@ Yi Wang, Kunchang Li, Yizhuo Li, Yinan He, Bingkun Huang, Zhiyu Zhao, Hongjie Zh
 </div>
 
 
-
-
 # 🎖 Honors and Awards
   - *2024-07-01*: 1st EgoVis Challenge, ECCV2024, **7 Top-1 Rankings**
   - *2023-10-01*: 1st Perception Test Challenge, **Top-1 and Top-2 Rankings**
