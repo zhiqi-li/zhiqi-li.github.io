@@ -113,7 +113,7 @@ Min Yang*, **Guo Chen***, Yin-Dong Zheng, Tong Lu, Limin Wang#
 
 # 📝 Projects
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV Workshop</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV Workshop</div><img src='images/ego4d.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [InternVideo-Ego4D: A Pack of Champion Solutions to Ego4D Challenges](https://ojs.aaai.org/index.php/AAAI/article/view/19900/19659)
