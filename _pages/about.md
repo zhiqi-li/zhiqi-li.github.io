@@ -129,7 +129,7 @@ Min Yang*, **Guo Chen***, Yin-Dong Zheng, Tong Lu, Limin Wang#
 
 # 📝 Projects
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV Workspace</div><img src='images/ego4d.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV Workspace</div><img src='images/egovideo.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Egovideo: Exploring egocentric foundation model and downstream adaptation](https://arxiv.org/pdf/2406.18070)
