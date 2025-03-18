@@ -51,39 +51,39 @@ I am focusing on video understanding, egocentric vision perception and user-cent
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2022</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/eagle2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Eagle2](https://ojs.aaai.org/index.php/AAAI/article/view/19900/19659)
+[Eagle 2: Building Post-Training Data Strategies from Scratch for Frontier Vision-Language Models](https://arxiv.org/pdf/2501.14818)
 
-**Guo Chen**, Yin-Dong Zheng, Limin Wang, Tong Lu#
+Zhiqi Li, **Guo Chen**, Shilong Liu, Shihao Wang, Vibashan VS, Yishen Ji, Shiyi Lan, Hao Zhang, Yilin Zhao, Subhashree Radhakrishnan, Nadine Chang, Karan Sapra, Amala Sanjay Deshmukh, Tuomas Rintamaki, Matthieu Le, Ilia Karmanov, Lukas Voegtle, Philipp Fischer, De-An Huang, Timo Roman, Tong Lu, Jose M Alvarez, Bryan Catanzaro, Jan Kautz, Andrew Tao, Guilin Liu, Zhiding Yu
 
-[**PDF**](https://ojs.aaai.org/index.php/AAAI/article/view/19900/19659) [**code**](https://github.com/cg1177/DCAN) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- This work explored boundary-based methods for temporal action detection and proposed a novel network, termed DCAN, to improve temporal action detection via temporal-level and proposal-level context aggregation.
+[**PDF**](https://arxiv.org/pdf/2501.14818) [**code**](https://github.com/NVlabs/EAGLE) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- This work focuses on developing open-source vision-language models by emphasizing data strategy in post-training, resulting in the performant Eagle2 models that achieve state-of-the-art results across various multimodal benchmarks.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2022</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='images/cg_bench.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[CG-Bench](https://ojs.aaai.org/index.php/AAAI/article/view/19900/19659)
+[Cg-bench: Clue-grounded question answering benchmark for long video understanding](https://arxiv.org/pdf/2412.12075?)
 
-**Guo Chen**, Yin-Dong Zheng, Limin Wang, Tong Lu#
+**Guo Chen**, Yicheng Liu, Yifei Huang, Yuping He, Baoqi Pei, Jilan Xu, Yali Wang, Tong Lu, Limin Wang
 
-[**PDF**](https://ojs.aaai.org/index.php/AAAI/article/view/19900/19659) [**code**](https://github.com/cg1177/DCAN) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- This work explored boundary-based methods for temporal action detection and proposed a novel network, termed DCAN, to improve temporal action detection via temporal-level and proposal-level context aggregation.
+[**PDF**](https://arxiv.org/pdf/2412.12075?) [**code**](https://github.com/CG-Bench/CG-Bench) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- CG-Bench is a benchmark for evaluating multimodal large language models' understanding of long videos through clue-grounded question answering, featuring 1,219 videos and 12,129 QA pairs across perception, reasoning, and hallucination question types. It introduces novel evaluation methods to ensure models retrieve relevant clues, highlighting the challenges in long video comprehension and the performance gap between open-source and commercial models.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2022</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2024</div><img src='images/internvideo2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[InternVideo2](https://ojs.aaai.org/index.php/AAAI/article/view/19900/19659)
+[Internvideo2: Scaling foundation models for multimodal video understanding](https://arxiv.org/pdf/2403.15377)
 
-**Guo Chen**, Yin-Dong Zheng, Limin Wang, Tong Lu#
+Yi Wang, Kunchang Li, Xinhao Li, Jiashuo Yu, Yinan He, **Guo Chen**, Baoqi Pei, Rongkun Zheng, Zun Wang, Yansong Shi, Tianxiang Jiang, Songze Li, Jilan Xu, Hongjie Zhang, Yifei Huang, Yu Qiao, Yali Wang, Limin Wang
 
-[**PDF**](https://ojs.aaai.org/index.php/AAAI/article/view/19900/19659) [**code**](https://github.com/cg1177/DCAN) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- This work explored boundary-based methods for temporal action detection and proposed a novel network, termed DCAN, to improve temporal action detection via temporal-level and proposal-level context aggregation.
+[**PDF**](https://arxiv.org/pdf/2403.15377) [**code**](https://github.com/OpenGVLab/InternVideo) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- InternVideo2 introduces a new family of video foundation models that excel in video recognition, video-text tasks, and video-centric dialogue through a progressive training approach, achieving state-of-the-art results with a 6B parameter video encoder. By ensuring spatiotemporal consistency and aligning video with text, it outperforms in over 60 tasks, especially in video-related dialogue and long video understanding.
 </div>
 </div>
 
@@ -99,7 +99,7 @@ I am focusing on video understanding, egocentric vision perception and user-cent
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/internvl' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/internvl.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Internvl: Scaling up vision foundation models and aligning for generic visual-linguistic tasks](https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_InternVL_Scaling_up_Vision_Foundation_Models_and_Aligning_for_Generic_CVPR_2024_paper.pdf)
