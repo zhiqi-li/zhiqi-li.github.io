@@ -129,7 +129,7 @@ Min Yang*, **Guo Chen***, Yin-Dong Zheng, Tong Lu, Limin Wang#
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Honors and Awards
-  - *2024-07-01*: <span class="badge">ECCV2024</span>1st EgoVis Challenge, **7 Top-1 Rankings**
+  - *2024-07-01*: <p class="badge">ECCV2024</p>1st EgoVis Challenge, **7 Top-1 Rankings**
   - *2023-10-01*: 1st Perception Test Challenge, **Top-1 and Top-2 Rankings**
   - *2023-01-01*: WSDM Cup 2023 Toloka VQA Challenge, WSDM2023, **Top-1 Ranking**
   - *2022-10-01*: 2nd Ego4D Challenge, ECCV2022, **7 Top-1 Rankings**
