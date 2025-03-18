@@ -71,7 +71,7 @@ Zhiqi Li, **Guo Chen**, Shilong Liu, Shihao Wang, Vibashan VS, Yishen Ji, Shiyi 
 **Guo Chen**, Yicheng Liu, Yifei Huang, Yuping He, Baoqi Pei, Jilan Xu, Yali Wang, Tong Lu, Limin Wang
 
 [**PDF**](https://arxiv.org/pdf/2412.12075?) [**code**](https://github.com/CG-Bench/CG-Bench) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- CG-Bench is a benchmark for evaluating multimodal large language models' understanding of long videos through clue-grounded question answering, featuring 1,219 videos and 12,129 QA pairs across perception, reasoning, and hallucination question types. It introduces novel evaluation methods to ensure models retrieve relevant clues, highlighting the challenges in long video comprehension and the performance gap between open-source and commercial models.
+- CG-Bench tests multimodal models on long videos with clue-based QA, featuring 1,219 videos and 12,129 questions. It highlights challenges in video comprehension and the gap between open-source and commercial models.
 </div>
 </div>
 
@@ -83,7 +83,7 @@ Zhiqi Li, **Guo Chen**, Shilong Liu, Shihao Wang, Vibashan VS, Yishen Ji, Shiyi 
 Yi Wang, Kunchang Li, Xinhao Li, Jiashuo Yu, Yinan He, **Guo Chen**, Baoqi Pei, Rongkun Zheng, Zun Wang, Yansong Shi, Tianxiang Jiang, Songze Li, Jilan Xu, Hongjie Zhang, Yifei Huang, Yu Qiao, Yali Wang, Limin Wang
 
 [**PDF**](https://arxiv.org/pdf/2403.15377) [**code**](https://github.com/OpenGVLab/InternVideo) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- InternVideo2 introduces a new family of video foundation models that excel in video recognition, video-text tasks, and video-centric dialogue through a progressive training approach, achieving state-of-the-art results with a 6B parameter video encoder. By ensuring spatiotemporal consistency and aligning video with text, it outperforms in over 60 tasks, especially in video-related dialogue and long video understanding.
+- InternVideo2 offers advanced video models with a 6B encoder, excelling in video recognition, text alignment, and dialogue, achieving top results in over 60 tasks.
 </div>
 </div>
 
@@ -95,7 +95,7 @@ Yi Wang, Kunchang Li, Xinhao Li, Jiashuo Yu, Yinan He, **Guo Chen**, Baoqi Pei, 
 **Guo Chen**, Yin-Dong Zheng, Limin Wang, Tong Lu#
 
 [**PDF**](http://openaccess.thecvf.com/content/CVPR2024/papers/Huang_EgoExoLearn_A_Dataset_for_Bridging_Asynchronous_Ego-_and_Exo-centric_View_CVPR_2024_paper.pdf) [**code**](https://github.com/OpenGVLab/EgoExoLearn) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- EgoExoLearn is a comprehensive dataset designed to study human ability to map activities across perspectives, featuring 120 hours of egocentric and demonstration videos with gaze data and multimodal annotations, aimed at advancing AI learning through observation, with benchmarks for cross-view tasks.
+- EgoExoLearn is a dataset with 120 hours of egocentric and demonstration videos, gaze data, and multimodal annotations, designed to advance AI learning through observation and cross-view task benchmarks.
 </div>
 </div>
 
@@ -107,7 +107,7 @@ Yi Wang, Kunchang Li, Xinhao Li, Jiashuo Yu, Yinan He, **Guo Chen**, Baoqi Pei, 
 Zhe Chen, Jiannan Wu, Wenhai Wang, Weijie Su, **Guo Chen**, Sen Xing, Muyan Zhong, Qinglong Zhang, Xizhou Zhu, Lewei Lu, Bin Li, Ping Luo, Tong Lu, Yu Qiao, Jifeng Dai#
 
 [**PDF**](https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_InternVL_Scaling_up_Vision_Foundation_Models_and_Aligning_for_Generic_CVPR_2024_paper.pdf) [**code**](https://github.com/OpenGVLab/InternVL) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- We designed a large-scale vision-language foundation model (InternVL) with 6 billion parameters, aligning it progressively with large language models using web-scale image-text data, achieving state-of-the-art performance on 32 visual-linguistic benchmarks, and advancing multi-modal AGI development.
+- We developed InternVL, a 6 billion parameter vision-language model, aligned with large language models using vast image-text data. It achieves state-of-the-art results on 32 benchmarks, advancing multi-modal AGI.
 </div>
 </div>
 
