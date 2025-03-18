@@ -58,7 +58,7 @@ I am focusing on video understanding, egocentric vision perception and user-cent
 
 **Guo Chen**, Yin-Dong Zheng, Limin Wang, Tong Lu#
 
-[**PDF**](https://ojs.aaai.org/index.php/AAAI/article/view/19900/19659) [**bibtex**](/bibtex/dcan.txt) [**code**](https://github.com/cg1177/DCAN) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**PDF**](https://ojs.aaai.org/index.php/AAAI/article/view/19900/19659) [**code**](https://github.com/cg1177/DCAN) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - This work explored boundary-based methods for temporal action detection and proposed a novel network, termed DCAN, to improve temporal action detection via temporal-level and proposal-level context aggregation.
 </div>
 </div>
@@ -70,7 +70,7 @@ I am focusing on video understanding, egocentric vision perception and user-cent
 
 **Guo Chen**, Yin-Dong Zheng, Limin Wang, Tong Lu#
 
-[**PDF**](https://ojs.aaai.org/index.php/AAAI/article/view/19900/19659) [**bibtex**](/bibtex/dcan.txt) [**code**](https://github.com/cg1177/DCAN) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**PDF**](https://ojs.aaai.org/index.php/AAAI/article/view/19900/19659) [**code**](https://github.com/cg1177/DCAN) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - This work explored boundary-based methods for temporal action detection and proposed a novel network, termed DCAN, to improve temporal action detection via temporal-level and proposal-level context aggregation.
 </div>
 </div>
@@ -94,7 +94,7 @@ Jiahao Wang*, **Guo Chen***, Yifei Huang, Limin Wang, Tong Lu#
 
 Min Yang*, **Guo Chen***, Yin-Dong Zheng, Tong Lu, Limin Wang#
 
-[**PDF**](https://arxiv.org/abs/2205.02717) [**bibtex**](/bibtex/basic.txt) [**code**](https://github.com/MCG-NJU/BasicTAD) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**PDF**](https://arxiv.org/abs/2205.02717)  [**code**](https://github.com/MCG-NJU/BasicTAD) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - This work presents a simple yet effective end-to-end training framework for temporal action detection.
 </div>
 </div>
@@ -106,7 +106,7 @@ Min Yang*, **Guo Chen***, Yin-Dong Zheng, Tong Lu, Limin Wang#
 
 **Guo Chen**, Yin-Dong Zheng, Limin Wang, Tong Lu#
 
-[**PDF**](https://ojs.aaai.org/index.php/AAAI/article/view/19900/19659) [**bibtex**](/bibtex/dcan.txt) [**code**](https://github.com/cg1177/DCAN) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**PDF**](https://ojs.aaai.org/index.php/AAAI/article/view/19900/19659)  [**code**](https://github.com/cg1177/DCAN) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - This work explored boundary-based methods for temporal action detection and proposed a novel network, termed DCAN, to improve temporal action detection via temporal-level and proposal-level context aggregation.
 </div>
 </div>
@@ -136,7 +136,7 @@ Min Yang*, **Guo Chen***, Yin-Dong Zheng, Tong Lu, Limin Wang#
 
 **Guo Chen**, Baoqi Pei, Jilan Xu, Yuping He, Yicheng Liu, Kanghua Pan, Yifei Huang, Yali Wang, Tong Lu, Limin Wang, Yu Qiao
 
-[**PDF**](https://arxiv.org/pdf/2406.18070) [**bibtex**](/bibtex/internvideo.txt) [**code**](https://github.com/OpenGVLab/ego4d-eccv2022-solutions) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**PDF**](https://arxiv.org/pdf/2406.18070) [**code**](https://github.com/OpenGVLab/ego4d-eccv2022-solutions) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - This work presents our champion solutions to five tracks at Ego4D challenge.
 </div>
 </div>
@@ -148,7 +148,7 @@ Min Yang*, **Guo Chen***, Yin-Dong Zheng, Tong Lu, Limin Wang#
 
 Yi Wang, Kunchang Li, Yizhuo Li, Yinan He, Bingkun Huang, Zhiyu Zhao, Hongjie Zhang, Jilan Xu, Yi Liu, Zun Wang, Sen Xing, **Guo Chen**, Junting Pan, Jiashuo Yu, Yali Wang, Limin Wang, Yu Qiao#
 
-[**PDF**](https://arxiv.org/pdf/2212.03191) [**bibtex**](/bibtex/internvideo.txt) [**code**](https://github.com/OpenGVLab/InternVideo) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**PDF**](https://arxiv.org/pdf/2212.03191) [**code**](https://github.com/OpenGVLab/InternVideo) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - This work presents our champion solutions to five tracks at Ego4D challenge.
 </div>
 </div>
@@ -160,7 +160,7 @@ Yi Wang, Kunchang Li, Yizhuo Li, Yinan He, Bingkun Huang, Zhiyu Zhao, Hongjie Zh
 
 **Guo Chen***, Sen Xing*, Zhe Chen*, Yi Wang*, Kunchang Li, Yizhuo Li, Yi Liu, Jiahao Wang, Yin-Dong Zheng, Bingkun Huang, Zhiyu Zhao, Junting Pan, Yifei Huang, Zun Wang, Jiashuo Yu, Yinan He, Hongjie Zhang, Tong Lu, Yali Wang, Limin Wang, Yu Qiao#
 
-[**PDF**](https://arxiv.org/pdf/2211.09529.pdf) [**bibtex**](/bibtex/ego4d.txt) [**code**](https://github.com/OpenGVLab/ego4d-eccv2022-solutions) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**PDF**](https://arxiv.org/pdf/2211.09529.pdf) [**code**](https://github.com/OpenGVLab/ego4d-eccv2022-solutions) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - This work presents our champion solutions to five tracks at Ego4D challenge.
 </div>
 </div>
