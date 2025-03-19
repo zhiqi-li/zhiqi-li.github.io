@@ -28,8 +28,12 @@ I am focusing on video understanding, egocentric vision perception and user-cent
 
 - *2025-01-22*: 3 ICLR papers are accepted. They are [CG-Bench](https://arxiv.org/pdf/2403.09626) for long video benchmark, [EgoHOD](https://arxiv.org/abs/2503.00986) for egocentric foundation model,  and [X-Gen](https://openreview.net/forum?id=8J2DrrWDKE) for ego-exo cross-view video prediction.
 
+- *2025-01-20*: We present the frontier VLM, [Eagle2](https://arxiv.org/pdf/2501.14818) and the model weight has been released at [huggingface](https://huggingface.co/nvidia/Eagle2-9B).
+
 - *2025-01-10*: [CG-Bench](https://arxiv.org/pdf/2403.09626) has been integrated into [VlmevalKit](https://github.com/open-compass/VLMEvalKit).
 
+- *2024-12-30*: We present a real-time Embodied Smart Assistant, [Vinci](https://arxiv.org/pdf/2412.21080?), based on Egocentric VLM. The code are at [github](https://github.com/OpenGVLab/vinci)
+- 
 - *2024-12-16*: We present the clue-grounded long video understanding benchmark [CG-Bench](https://arxiv.org/pdf/2403.09626) and basic evaluation code at [github](https://github.com/CG-Bench/CG-Bench).
 
 - *2024-07-01*: Our team wins <font color="#dd0000"><strong>Top-1</strong></font> rankings in <font color="#dd0000"><strong>7 tracks</strong></font> of [1st EgoVis ECCV2024 Challenge](https://egovis.github.io/cvpr24/) and the code are integrated into [github](https://github.com/OpenGVLab/EgoVideo).
