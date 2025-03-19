@@ -26,7 +26,7 @@ I am focusing on video understanding, egocentric vision perception and user-cent
 
 # 🔥 News
 
-- *2025-03-17*: [Eagle2] has been adopted by NVIDIA GEAR Team to develop robotic foundation model [GR00T N1](https://research.nvidia.com/publication/2025-03_nvidia-isaac-gr00t-n1-open-foundation-model-humanoid-robots).
+- *2025-03-17*: [Eagle2](https://arxiv.org/pdf/2501.14818) has been adopted by NVIDIA GEAR Team to develop robotic foundation model [GR00T N1](https://research.nvidia.com/publication/2025-03_nvidia-isaac-gr00t-n1-open-foundation-model-humanoid-robots).
 
 - *2025-01-22*: 3 ICLR papers are accepted. They are [CG-Bench](https://arxiv.org/pdf/2403.09626) for long video benchmark, [EgoHOD](https://arxiv.org/abs/2503.00986) for egocentric foundation model,  and [X-Gen](https://openreview.net/forum?id=8J2DrrWDKE) for ego-exo cross-view video prediction.
 
