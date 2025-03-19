@@ -25,6 +25,13 @@ I am focusing on video understanding, egocentric vision perception and user-cent
 
 
 # 🔥 News
+
+- *2024-03-15*: We present the suite of modeling video with mamba [video-mamba-suite](https://arxiv.org/pdf/2403.09626) and release the code at [github](https://github.com/OpenGVLab/video-mamba-suite).
+
+- *2024-02-27*: 4 CVPR papers are accepted. They are [InternVL](https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_InternVL_Scaling_up_Vision_Foundation_Models_and_Aligning_for_Generic_CVPR_2024_paper.pdf) for general visual understanding, [MVBench](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_MVBench_A_Comprehensive_Multi-modal_Video_Understanding_Benchmark_CVPR_2024_paper.pdf) for chat-centric video understanding, [EgoInstructor](http://openaccess.thecvf.com/content/CVPR2024/papers/Xu_Retrieval-Augmented_Egocentric_Video_Captioning_CVPR_2024_paper.pdf) for egocentric captioning and [EgoExoLearn](http://openaccess.thecvf.com/content/CVPR2024/papers/Huang_EgoExoLearn_A_Dataset_for_Bridging_Asynchronous_Ego-_and_Exo-centric_View_CVPR_2024_paper.pdf) for ego-exo cross-view datasets and model suite.
+
+- *2023-12-26*: We present the generlist visual-language model [InternVL](https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_InternVL_Scaling_up_Vision_Foundation_Models_and_Aligning_for_Generic_CVPR_2024_paper.pdf) and release the code at [github](https://github.com/OpenGVLab/InternVL).
+
 - *2023-10-10*: In the first [Perception Test](https://github.com/google-deepmind/perception_test/tree/main) challenge, We obtain the best performance in Temporal Sound Localisation & runner-up in Temporal Action Localisation. The code of solution is [here](https://github.com/OpenGVLab/perception_test_iccv2023).
 
 - *2023-08-16*: Code of [MAT](https://echo0125.github.io/mat/) is released in [here](https://github.com/Echo0125/Memory-and-Anticipation-Transformer).
