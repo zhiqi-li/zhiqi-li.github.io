@@ -116,7 +116,7 @@ Zhe Chen, Jiannan Wu, Wenhai Wang, Weijie Su, **Guo Chen**, Sen Xing, Muyan Zhon
 
 [Memory-and-Anticipation Transformer for Online Action Understanding](https://ojs.aaai.org/index.php/AAAI/article/view/19900/19659)
 
-Jiahao Wang*, **Guo Chen***, Yifei Huang, Limin Wang, Tong Lu#
+Jiahao Wang*, **Guo Chen**, Yifei Huang, Limin Wang, Tong Lu#
 
 [**Homepage**](https://echo0125.github.io/mat/) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - This work presents a memory-anticipation-based method for online action understanding.
