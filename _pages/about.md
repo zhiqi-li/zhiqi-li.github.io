@@ -57,7 +57,7 @@ I am also the first Ph.D. student from a Chinese institution awarded the [NVIDIA
 - *2022-06*:  Our team wins the
                     champion of [Waymo 2022 3D Camera-Only Detection Task](https://waymo.com/open/challenges/2022/3d-camera-only-detection/) (15,000 USD Bonus)
 
-# 📝 Publications 
+# 📝 Publications and Reports
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/eagle2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -71,18 +71,16 @@ I am also the first Ph.D. student from a Chinese institution awarded the [NVIDIA
 </div>
 </div>
 
-# 📝 Projects
 
 
 # 🎖 Honors and Awards
-  - *2024-07-01*: 1st EgoVis Challenge, ECCV2024, **7 Top-1 Rankings**
-  - *2023-10-01*: 1st Perception Test Challenge, **Top-1 and Top-2 Rankings**
-  - *2023-01-01*: WSDM Cup 2023 Toloka VQA Challenge, WSDM2023, **Top-1 Ranking**
-  - *2022-10-01*: 2nd Ego4D Challenge, ECCV2022, **7 Top-1 Rankings**
-  - *2017-12-01*: CCPC Final Contest, **Bronze Medal**
-  - *2017-10-01*: CCPC Regional Contest, **Bronze Medal**
-  - *2017-10-15*: ACM-ICPC Asia Regional Contest, **Silver Medal**
-
+  - *2024-06*: **True** outstanding champion of [Driving with Language](https://opendrivelab.com/challenge2024/#driving_with_language)
+  - *2024-06*: Outstanding champion and Innovation Award of [End-to-End Driving at Scale Challenge](https://opendrivelab.com/challenge2024/#end_to_end_driving_at_scale)
+  - *2023-12*: NVIDIA Graduate Fellowship (Top-10 globally, First awarded student from Chinese institution)
+  - *2023-12*: Distinguished Student of Nanjing University (南京大学学生年度人物, Top-10)
+  - *2023-11*: National Scholarship
+  - *2023-06*: Occupancy Prediction Challenge, <a href="https://opendrivelab.com/AD23Challenge.html#Track3">1st Place and Innovation Award (15,000+5000 USD Bonus)</a>
+  - *2022-06*: Waymo 2022 3D Camera-Only Detection Task, <a href="https://waymo.com/open/challenges/2022/3d-camera-only-detection/">1st Place (15,000 USD Bonus)</a>
 # 📖 Educations
 - *20.09 - present*, Nanjing University, China
 - *16.09 - 20.06*, Nanjing University, China

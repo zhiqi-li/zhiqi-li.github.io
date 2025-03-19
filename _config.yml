@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zhiqi Li"
-description              : "The homepage of Zhiqi Li "
+description              : "The more artificial you are, the more intelligence you gain."
 repository               : "zhiqi-li/zhiqi-li.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Zhiqi Li"
-  avatar           : "images/android-chrome-512x512.png"
+  avatar           : "images/me.jpg"
   bio              : "Nanjing University"
   location         : "Nanjing, China"
   employer         :
