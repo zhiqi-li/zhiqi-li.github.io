@@ -26,6 +26,14 @@ I am focusing on video understanding, egocentric vision perception and user-cent
 
 # 🔥 News
 
+- *2025-01-22*: 3 ICLR papers are accepted. They are [CG-Bench](https://arxiv.org/pdf/2403.09626) for long video benchmark, [EgoHOD](https://arxiv.org/abs/2503.00986) for egocentric foundation model,  and [X-Gen](https://openreview.net/forum?id=8J2DrrWDKE) for ego-exo cross-view video prediction.
+
+- *2025-01-10*: [CG-Bench](https://arxiv.org/pdf/2403.09626) has been integrated into [VlmevalKit](https://github.com/open-compass/VLMEvalKit).
+
+- *2024-12-16*: We present the clue-grounded long video understanding benchmark [CG-Bench](https://arxiv.org/pdf/2403.09626) and basic evaluation code at [github](https://github.com/CG-Bench/CG-Bench).
+
+- *2024-07-01*: Our team wins <font color="#dd0000"><strong>Top-1</strong></font> rankings in <font color="#dd0000"><strong>7 tracks</strong></font> of [1st EgoVis ECCV2024 Challenge](https://egovis.github.io/cvpr24/) and the code are integrated into [github](https://github.com/OpenGVLab/EgoVideo).
+
 - *2024-03-15*: We present the suite of modeling video with mamba [video-mamba-suite](https://arxiv.org/pdf/2403.09626) and release the code at [github](https://github.com/OpenGVLab/video-mamba-suite).
 
 - *2024-02-27*: 4 CVPR papers are accepted. They are [InternVL](https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_InternVL_Scaling_up_Vision_Foundation_Models_and_Aligning_for_Generic_CVPR_2024_paper.pdf) for general visual understanding, [MVBench](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_MVBench_A_Comprehensive_Multi-modal_Video_Understanding_Benchmark_CVPR_2024_paper.pdf) for chat-centric video understanding, [EgoInstructor](http://openaccess.thecvf.com/content/CVPR2024/papers/Xu_Retrieval-Augmented_Egocentric_Video_Captioning_CVPR_2024_paper.pdf) for egocentric captioning and [EgoExoLearn](http://openaccess.thecvf.com/content/CVPR2024/papers/Huang_EgoExoLearn_A_Dataset_for_Bridging_Asynchronous_Ego-_and_Exo-centric_View_CVPR_2024_paper.pdf) for ego-exo cross-view datasets and model suite.
