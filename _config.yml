@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Guo Chen"
-description              : "The homepage of Guo Chen "
-repository               : "https://github.com/cg1177"
+title                    : "Zhiqi Li"
+description              : "The homepage of Zhiqi Li "
+repository               : "zhiqi-li/zhiqi-li.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -21,14 +21,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Guo Chen"
+  name             : "Zhiqi Li"
   avatar           : "images/android-chrome-512x512.png"
   bio              : "Nanjing University"
   location         : "Nanjing, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=lRj3moAAAAAJ"
-  email            : "chenguo1177@gmail.com"
+  googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=H2fJLqEAAAAJ"
+  email            : "jasoncpp@outlook.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : zhiqi-li # e.g., "github username"
   google_plus      :
   keybase          :
   instagram        :

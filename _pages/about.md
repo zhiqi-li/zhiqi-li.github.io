@@ -17,62 +17,46 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I‘m pursuing a Ph.D. in Computer Science at [Nanjing University](https://en.wikipedia.org/wiki/Nanjing_University), advised by Prof. [Limin Wang](http://wanglimin.github.io/) and Prof. [Tong Lu](https://cs.nju.edu.cn/lutong/index.htm). 
-<!-- Now I'm working at [Shanghai AI Lab](https://www.shlab.org.cn/). -->
+I am a final-year Ph.D. student in Computer Science at [Nanjing University](https://en.wikipedia.org/wiki/Nanjing_University), advised by Prof. [Tong Lu](https://cs.nju.edu.cn/lutong/index.htm). Later this year, I will be joining **NVIDIA Research** as a **Research Scientist**.
 
-My research interests are General visual perception and human-computer and multimodal interaction system. 
-I am focusing on video understanding, egocentric vision perception and user-centric visual computing.
+My research focuses on **Vision-Language Models (VLMs)** and **Autonomous Driving Perception**. I have published 10+ papers <a href='https://scholar.google.com/citations?hl=zh-CN&user=H2fJLqEAAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FRayeRen%2Frayeren.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at the top international AI conferences such as CVPR, ICCV and ECCV. 
+
+
+Currently, I am working on **frontier Vision-Language Models** at NVIDIA, collaborating with [Zhiding Yu](https://research.nvidia.com/person/zhiding-yu), [Guilin Liu](https://liuguilin1225.github.io/), and other outstanding researchers on **Project [Eagle](https://huggingface.co/collections/nvidia/eagle-2-6764ba887fa1ef387f7df067)**. Eagle also contributes to **NVIDIA Cosmos Nemotron** and [**NVIDIA Isaac GR00T N1**](https://github.com/NVIDIA/Isaac-GR00T).
+
+Previously, I focused on **autonomous driving**, where I developed [**BEVFormer**](https://github.com/fundamentalvision/BEVFormer), a widely recognized method in the field. I have also won **three consecutive championships** in autonomous driving challenges at **CVPR 2022, 2023, and 2024**. 
+
+I am also the first Ph.D. student from a Chinese institution awarded the [NVIDIA PhD Fellowship](https://research.nvidia.com/graduate-fellowships/2024).
 
 
 # 🔥 News
 
-- *2025-03-17*: [Eagle2](https://arxiv.org/pdf/2501.14818) has been adopted by NVIDIA GEAR Team to develop robotic foundation model [GR00T N1](https://research.nvidia.com/publication/2025-03_nvidia-isaac-gr00t-n1-open-foundation-model-humanoid-robots).
+- *2025-03*: [Eagle2](https://arxiv.org/pdf/2501.14818) has been adopted by NVIDIA GEAR Team to develop robotic foundation model [GR00T N1](https://research.nvidia.com/publication/2025-03_nvidia-isaac-gr00t-n1-open-foundation-model-humanoid-robots).
 
-- *2025-01-22*: 3 ICLR papers are accepted. They are [CG-Bench](https://arxiv.org/pdf/2403.09626) for long video benchmark, [EgoHOD](https://arxiv.org/abs/2503.00986) for egocentric foundation model,  and [X-Gen](https://openreview.net/forum?id=8J2DrrWDKE) for ego-exo cross-view video prediction.
+- *2025-01*: We present the frontier VLM, [Eagle2](https://arxiv.org/pdf/2501.14818) and the model weight has been released at [huggingface](https://huggingface.co/nvidia/Eagle2-9B).
 
-- *2025-01-20*: We present the frontier VLM, [Eagle2](https://arxiv.org/pdf/2501.14818) and the model weight has been released at [huggingface](https://huggingface.co/nvidia/Eagle2-9B).
+- *2024-11*: [BEVFormer](https://www.computer.org/csdl/journal/tp/2025/03/10791908/22ABgP6PlUQ) was accepted at T-PAMI.
 
-- *2025-01-10*: [CG-Bench](https://arxiv.org/pdf/2403.09626) has been integrated into [VlmevalKit](https://github.com/open-compass/VLMEvalKit).
+- *2024-06*: On CVPR 2024, our Team-NVIDIA won the outstanding champion and Innovation Award of [End-to-End Driving at Scale Challenge](https://opendrivelab.com/challenge2024/#end_to_end_driving_at_scale). Our Team at NJU-ImagineLab won the **True** outstanding champion of [Driving with Language](https://opendrivelab.com/challenge2024/#driving_with_language).
 
-- *2024-12-30*: We present a real-time Embodied Smart Assistant, [Vinci](https://arxiv.org/pdf/2412.21080?), based on Egocentric VLM. The code are at [github](https://github.com/OpenGVLab/vinci)
-  
-- *2024-12-16*: We present the clue-grounded long video understanding benchmark [CG-Bench](https://arxiv.org/pdf/2403.09626) and basic evaluation code at [github](https://github.com/CG-Bench/CG-Bench).
+- *2024-02*: [BEV-Planner](https://arxiv.org/pdf/2312.03031.pdf) and [DCNv4](https://arxiv.org/pdf/2401.06197v1.pdf) were accpeted at CVPR 2024.
 
-- *2024-07-01*: Our team wins <font color="#dd0000"><strong>Top-1</strong></font> rankings in <font color="#dd0000"><strong>7 tracks</strong></font> of [1st EgoVis ECCV2024 Challenge](https://egovis.github.io/cvpr24/) and the code are integrated into [github](https://github.com/OpenGVLab/EgoVideo).
+- *2023-11*: [VCD](https://arxiv.org/pdf/2310.15670.pdf) was accepted at NeurIPS 2023 and one [BEV Survey](https://arxiv.org/pdf/2209.05324) was accepted to TPAMI
 
-- *2024-07-01*: [InternVideo2](https://arxiv.org/abs/2403.15377) has been accepted by ECCV2024.
 
-- *2024-03-22*: We present the  [InternVideo2](https://arxiv.org/abs/2403.15377) and the code is integrated into [github](https://github.com/OpenGVLab/InternVideo).
+- *2023-10*: [InternImage](https://arxiv.org/pdf/2211.05778.pdf) was selected as one of [CVPR 2023 Top-10 Influential Papers](https://www.paperdigest.org/2023/09/most-influential-cvpr-papers-2023-09/).
 
-- *2024-03-15*: We present the suite of modeling video with mamba [video-mamba-suite](https://arxiv.org/pdf/2403.09626) and release the code at [github](https://github.com/OpenGVLab/video-mamba-suite).
 
-- *2024-02-27*: 4 CVPR papers are accepted. They are [InternVL](https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_InternVL_Scaling_up_Vision_Foundation_Models_and_Aligning_for_Generic_CVPR_2024_paper.pdf) for general visual understanding, [MVBench](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_MVBench_A_Comprehensive_Multi-modal_Video_Understanding_Benchmark_CVPR_2024_paper.pdf) for chat-centric video understanding, [EgoInstructor](http://openaccess.thecvf.com/content/CVPR2024/papers/Xu_Retrieval-Augmented_Egocentric_Video_Captioning_CVPR_2024_paper.pdf) for egocentric captioning and [EgoExoLearn](http://openaccess.thecvf.com/content/CVPR2024/papers/Huang_EgoExoLearn_A_Dataset_for_Bridging_Asynchronous_Ego-_and_Exo-centric_View_CVPR_2024_paper.pdf) for ego-exo cross-view datasets and model suite.
+- *2023-07*: [FB-BEV](https://arxiv.org/pdf/2308.02236.pdf) was acceped at ICCV 2023
 
-- *2023-12-26*: We present the generlist visual-language model [InternVL](https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_InternVL_Scaling_up_Vision_Foundation_Models_and_Aligning_for_Generic_CVPR_2024_paper.pdf) and release the code at [github](https://github.com/OpenGVLab/InternVL).
+- *2023-06*: Our team wins both the outstanding champion and Innovation Award of [Occupancy Prediction Challenge](https://opendrivelab.com/AD23Challenge.html#Track3) (15,000+5,000 UDS Bonus) on CVPR2023.
 
-- *2023-10-10*: In the first [Perception Test](https://github.com/google-deepmind/perception_test/tree/main) challenge, We obtain the best performance in Temporal Sound Localisation & runner-up in Temporal Action Localisation. The code of solution is [here](https://github.com/OpenGVLab/perception_test_iccv2023).
+- *2023-01*: [BEVFormer](https://arxiv.org/pdf/2203.17270.pdf) is selected as one of [ECCV 2022 Top-10
+                        Influential Papers](https://www.paperdigest.org/2023/01/most-influential-eccv-papers-2023-01/) and [the 100 most cited AI papers in 2022](https://www.zeta-alpha.com/post/must-read-the-100-most-cited-ai-papers-in-2022)
+- *2022-11*: We release [InternImage](https://arxiv.org/abs/2211.05778.pdf), setting a new record **65.4 box mAP** on COCO test-dev
 
-- *2023-08-16*: Code of [MAT](https://echo0125.github.io/mat/) is released in [here](https://github.com/Echo0125/Memory-and-Anticipation-Transformer).
-
-- *2023-07-14*: Our paper [MAT](https://echo0125.github.io/mat/) is accepted by [ICCV](https://iccv2023.thecvf.com/).
-
-- *2023-05-22*: We present a novel Video Sequence Understanding Framework [VideoLLM](https://arxiv.org/abs/2305.13292).
-
-- *2023-04-03*: [BasicTAD](https://arxiv.org/abs/2205.02717) is accepted by [CVIU](https://www.sciencedirect.com/journal/computer-vision-and-image-understanding).
-
-- *2023-01-17*: Our team wins the champion of [WSDM Cup 2023 Toloka VQA Challenge](https://codalab.lisn.upsaclay.fr/competitions/7434#learn_the_details).
-
-- *2022-11-17*: 🎂 We provide the final Ego4D [report](https://arxiv.org/pdf/2211.09529.pdf) and the [code](https://github.com/OpenGVLab/ego4d-eccv2022-solutions).
-
-- *2022-09-19*: Our team wins <font color="#dd0000"><strong>Top-1</strong></font> rankings in <font color="#dd0000"><strong>7 tracks</strong></font> of [Ego4D ECCV2022 Challenge](https://ego4d-data.org/workshops/eccv22/).
-
-- *2022-09-15*: We have released the [source code](https://github.com/MCG-NJU/BasicTAD) of [BasicTAD](https://arxiv.org/abs/2205.02717).
-
-- *2022-06-21*: Code of [DCAN](https://ojs.aaai.org/index.php/AAAI/article/view/19900) is released in [here](https://github.com/cg1177/DCAN).
-
-- *2022-05-05*: We present the [BasicTAD](https://arxiv.org/abs/2205.02717), an end-to-end TAD baseline method. 
-
-- *2021-12-01*: Our paper [DCAN](https://ojs.aaai.org/index.php/AAAI/article/view/19900) is accepted by [AAAI](https://aaai.org/).
+- *2022-06*:  Our team wins the
+                    champion of [Waymo 2022 3D Camera-Only Detection Task](https://waymo.com/open/challenges/2022/3d-camera-only-detection/) (15,000 USD Bonus)
 
 # 📝 Publications 
 
