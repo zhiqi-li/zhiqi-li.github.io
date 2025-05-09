@@ -21,7 +21,7 @@ I am a final-year Ph.D. student in Computer Science at [Nanjing University](http
 
 My research focuses on **Vision-Language Models (VLMs)** and **Autonomous Driving Perception**. I have published 10+ papers（[Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=H2fJLqEAAAAJ)） at the top international AI conferences such as CVPR, ICCV, ECCV and etc. 
 
-Currently, I am working on **frontier Vision-Language Models** at NVIDIA, collaborating with [Zhiding Yu](https://research.nvidia.com/person/zhiding-yu), [Guilin Liu](https://liuguilin1225.github.io/), and other outstanding researchers on **Project [Eagle](https://huggingface.co/collections/nvidia/eagle-2-6764ba887fa1ef387f7df067)**. Eagle is contributing to **NVIDIA Cosmos Nemotron** and [**NVIDIA Isaac GR00T N1**](https://github.com/NVIDIA/Isaac-GR00T).
+Currently, I am working on **frontier Vision-Language Models** at NVIDIA, collaborating with [Zhiding Yu](https://research.nvidia.com/person/zhiding-yu), [Guilin Liu](https://liuguilin1225.github.io/), and other outstanding researchers on **Project [Eagle](https://huggingface.co/collections/nvidia/eagle-2-6764ba887fa1ef387f7df067)**. Eagle is contributing to **NVIDIA Commercial VLMs** and [**NVIDIA Isaac GR00T N1**](https://github.com/NVIDIA/Isaac-GR00T).
 
 Previously, I focused on **autonomous driving**, where I developed [**BEVFormer**](https://github.com/fundamentalvision/BEVFormer), a widely recognized method in the field. I have also won **three consecutive championships** in autonomous driving challenges at **CVPR 2022, 2023, and 2024**. 
 
