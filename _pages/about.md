@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Research Scientist at **NVIDIA Research**, based in Singapore. Previously, I earned my Ph.D. in Computer Science from [Nanjing University](https://en.wikipedia.org/).
+I am a Research Scientist at **NVIDIA Research**, based in Singapore. Previously, I earned my Ph.D. in Computer Science from [Nanjing University](https://www.nju.edu.cn/).
 
 My research focuses on **Vision-Language Models (VLMs)** and **Autonomous Driving Perception**. I have published 10+ papers（[Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=H2fJLqEAAAAJ)） at the top international AI conferences such as CVPR, ICCV, ECCV and etc. 
 
