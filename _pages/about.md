@@ -17,13 +17,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Research Scientist at **NVIDIA Research**, based in Singapore. Previously, I earned my Ph.D. in Computer Science from [Nanjing University](https://www.nju.edu.cn/).
+I am a Research Scientist at **NVIDIA Research**, based in Singapore. Previously, I earned my Ph.D. in Computer Science from [Nanjing University](https://www.nju.edu.cn/), advised by Prof. [Tong Lu](https://scholar.google.com/citations?user=mgqhQGkAAAAJ).
 
-My research focuses on **Vision-Language Models (VLMs)** and **Autonomous Driving Perception**. I have published 10+ papers（[Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=H2fJLqEAAAAJ)） at the top international AI conferences such as CVPR, ICCV, ECCV and etc. 
+My research focuses on **VLM/VLA** recently. I have published 10+ papers（[Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=H2fJLqEAAAAJ)） at the top international AI conferences such as CVPR, ICCV, ECCV and etc. 
 
-Currently, I am working on **frontier Vision-Language Models** at NVIDIA, collaborating with [Zhiding Yu](https://research.nvidia.com/person/zhiding-yu), [Guilin Liu](https://liuguilin1225.github.io/), and other outstanding researchers on **Project [Eagle](https://huggingface.co/collections/nvidia/eagle-2-6764ba887fa1ef387f7df067)**. Eagle is contributing to **NVIDIA Commercial VLMs** and [**NVIDIA Isaac GR00T N1**](https://github.com/NVIDIA/Isaac-GR00T).
+Currently, I am working on **frontier VLM/VLA models** at NVIDIA. Previously we developed **Project [Eagle](https://huggingface.co/collections/nvidia/eagle-2-6764ba887fa1ef387f7df067)**. Eagle has contributed to **NVIDIA Nemotron VLMs** and [**NVIDIA Isaac GR00T N1**](https://github.com/NVIDIA/Isaac-GR00T).
 
-Previously, I focused on **autonomous driving**, where I developed [**BEVFormer**](https://github.com/fundamentalvision/BEVFormer), a widely recognized method in the field. I have also won **three consecutive championships** in autonomous driving challenges at **CVPR 2022, 2023, and 2024**. 
+During my Ph.D., I focused on **autonomous driving**, where I developed [**BEVFormer**](https://github.com/fundamentalvision/BEVFormer), a widely recognized method in the field. I have also won **three consecutive championships** in autonomous driving challenges at **CVPR 2022, 2023, and 2024**. 
 
 I am also the first Ph.D. student from a Chinese institution awarded the [NVIDIA PhD Fellowship](https://research.nvidia.com/graduate-fellowships/2024).
 
