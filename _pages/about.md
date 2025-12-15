@@ -27,6 +27,7 @@ Previously, I focused on **autonomous driving**, where I developed [**BEVFormer*
 
 I am also the first Ph.D. student from a Chinese institution awarded the [NVIDIA PhD Fellowship](https://research.nvidia.com/graduate-fellowships/2024).
 
+<span style="color: red; font-weight: bold;">🔔 We are hiring interns to work on VLM/VLA models for NVIDIA flagship projects! Contact: zhiqil@nvidia.com (December 2025)</span>
 
 # 🔥 News
 
