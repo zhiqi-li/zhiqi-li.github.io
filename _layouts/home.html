@@ -32,6 +32,7 @@
   {% assign a = site.author %}
 
   <canvas id="bg-canvas" aria-hidden="true"></canvas>
+  <canvas id="fx-canvas" aria-hidden="true"></canvas>
 
   <!-- ===================== NAV ===================== -->
   <nav class="nav" id="nav">
@@ -231,6 +232,98 @@
           else if (!raf) { frame(); }
         });
       }
+    })();
+
+    // Interactive perception layer: cursor tracker + page "perception" locks
+    (function () {
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      var canvas = document.getElementById('fx-canvas');
+      if (!canvas) return;
+      var ctx = canvas.getContext('2d');
+      var dpr = Math.min(window.devicePixelRatio || 1, 2);
+      var W = 0, H = 0, INK = '23,23,26', raf = null, tick = 0, locks = [], bursts = [];
+
+      function resize() {
+        W = window.innerWidth; H = window.innerHeight;
+        canvas.width = W * dpr; canvas.height = H * dpr;
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      }
+      resize();
+      window.addEventListener('resize', resize, { passive: true });
+      // click → detection "lock" burst at the robot
+      window.addEventListener('pointerdown', function (e) {
+        if (e.pointerType === 'touch') return;
+        bursts.push({ x: e.clientX, y: e.clientY, age: 0, max: 32 });
+        if (!raf) frame();
+      }, { passive: true });
+
+      function stroke(a) { ctx.strokeStyle = 'rgba(' + INK + ',' + a + ')'; }
+      function fill(a) { ctx.fillStyle = 'rgba(' + INK + ',' + a + ')'; }
+      function dashed(x, y, w, h, a) { stroke(a); ctx.lineWidth = 1; ctx.setLineDash([3, 4]); ctx.strokeRect(x, y, w, h); ctx.setLineDash([]); }
+      function corners(x, y, w, h, L, a) {
+        stroke(a); ctx.lineWidth = 1.2;
+        function c(px, py, dx, dy) { ctx.beginPath(); ctx.moveTo(px + dx * L, py); ctx.lineTo(px, py); ctx.lineTo(px, py + dy * L); ctx.stroke(); }
+        c(x, y, 1, 1); c(x + w, y, -1, 1); c(x, y + h, 1, -1); c(x + w, y + h, -1, -1);
+      }
+      function label(x, y, t, a) { fill(a); ctx.font = '10px ui-monospace, Menlo, monospace'; ctx.fillText(t, x, y); }
+
+      function labelFor(el) {
+        if (el.classList.contains('hero__name')) return 'person 0.99';
+        if (el.classList.contains('eyebrow')) return (el.textContent.trim().split(/\s+/).pop() || 'section').toLowerCase();
+        if (el.classList.contains('pub')) return 'paper 0.' + (90 + (tick % 9));
+        if (el.classList.contains('callout')) return 'notice 0.96';
+        return 'region';
+      }
+      function spawnLock() {
+        var cand = [];
+        document.querySelectorAll('.hero__name, .eyebrow, .pub, .callout').forEach(function (el) {
+          var r = el.getBoundingClientRect();
+          if (r.width > 0 && r.bottom > 80 && r.top < H - 30) cand.push(el);
+        });
+        if (!cand.length) return;
+        var el = cand[Math.floor(Math.random() * cand.length)];
+        for (var i = 0; i < locks.length; i++) if (locks[i].el === el) return;
+        locks.push({ el: el, label: labelFor(el), age: 0, ttl: 150 });
+      }
+
+      function frame() {
+        tick++;
+        ctx.clearRect(0, 0, W, H);
+        if (tick % 135 === 0 && locks.length < 2) spawnLock();
+        for (var i = locks.length - 1; i >= 0; i--) {
+          var lk = locks[i]; lk.age++;
+          if (lk.age > lk.ttl) { locks.splice(i, 1); continue; }
+          var r = lk.el.getBoundingClientRect();
+          if (r.bottom < 0 || r.top > H || r.width === 0) continue;
+          var a = Math.max(0, Math.min(1, Math.min(lk.age / 12, 1) * Math.min((lk.ttl - lk.age) / 20, 1)));
+          var p = 6, x = r.left - p, y = r.top - p, w = r.width + p * 2, h = r.height + p * 2;
+          dashed(x, y, w, h, a * 0.16);
+          corners(x, y, w, h, 11, a * 0.5);
+          label(x + 2, y - 6, lk.label, a * 0.55);
+        }
+        // click bursts
+        for (var bi = bursts.length - 1; bi >= 0; bi--) {
+          var bs = bursts[bi]; bs.age++;
+          if (bs.age > bs.max) { bursts.splice(bi, 1); continue; }
+          var bp = bs.age / bs.max, be = 1 - Math.pow(1 - bp, 3), ba = 1 - bp;
+          var sz = 12 + be * 46;
+          corners(bs.x - sz / 2, bs.y - sz / 2, sz, sz, 7, ba * 0.6);
+          stroke(ba * 0.30); ctx.lineWidth = 1;
+          ctx.beginPath(); ctx.arc(bs.x, bs.y, sz * 0.6, 0, 6.3); ctx.stroke();
+          fill(ba * 0.5);
+          for (var pa = 0; pa < 4; pa++) {
+            var ang = pa * 1.5708 + 0.7, rd = be * 28;
+            ctx.fillRect(bs.x + Math.cos(ang) * rd - 1, bs.y + Math.sin(ang) * rd - 1, 2, 2);
+          }
+          if (bp < 0.65) label(bs.x + sz / 2 - 2, bs.y - sz / 2 - 4, 'locked', ba * 0.55);
+        }
+        raf = requestAnimationFrame(frame);
+      }
+      frame();
+      document.addEventListener('visibilitychange', function () {
+        if (document.hidden) { if (raf) { cancelAnimationFrame(raf); raf = null; } }
+        else if (!raf) { frame(); }
+      });
     })();
 
     // Hero name: decode/scramble-in
