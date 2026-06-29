@@ -103,7 +103,24 @@ section[id] { scroll-margin-top: 84px; }
 }
 
 /* --- hero ----------------------------------------------------------------- */
-.hero { padding: 84px 0 56px; }
+.hero { padding: 84px 0 56px; position: relative; }
+.hero__canvas {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+  -webkit-mask-image: radial-gradient(120% 90% at 30% 40%, #000 35%, transparent 78%);
+          mask-image: radial-gradient(120% 90% at 30% 40%, #000 35%, transparent 78%);
+}
+.hero > *:not(.hero__canvas) { position: relative; z-index: 1; }
+/* name decode effect */
+.hero__name .char { display: inline-block; }
+.hero__name .char.is-scrambling { color: var(--ink-faint); }
+.hero__name .sp { display: inline-block; width: 0.28em; }
 .hero__avatar {
   width: 76px; height: 76px; border-radius: 50%;
   object-fit: cover;
@@ -149,6 +166,15 @@ section[id] { scroll-margin-top: 84px; }
 }
 .hero__meta b { color: var(--ink); font-weight: 600; }
 .hero__meta .dot { color: var(--ink-faint); }
+.hero__social { display: inline-flex; gap: 18px; align-items: center; }
+.hero__social a {
+  color: var(--ink-faint);
+  font-size: 1.02rem;
+  line-height: 1;
+  transition: color .2s ease, transform .12s ease;
+  will-change: transform;
+}
+.hero__social a:hover { color: var(--ink); }
 
 /* --- section scaffolding -------------------------------------------------- */
 .section {
