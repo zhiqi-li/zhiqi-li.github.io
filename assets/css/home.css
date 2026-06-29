@@ -116,9 +116,8 @@ section[id] { scroll-margin-top: 84px; }
 /* robot cursor (fine pointers only) */
 @media (pointer: fine) {
   body { cursor: url('/images/cursor-robot.svg') 14 12, auto; }
-  a, button, summary, [role="button"], .pub { cursor: url('/images/cursor-robot.svg') 14 12, pointer; }
-  body:active,
-  a:active, .pub:active { cursor: url('/images/cursor-robot-active.svg') 14 12, auto; }
+  a, button, summary, [role="button"] { cursor: url('/images/cursor-robot-link.svg') 14 12, pointer; }
+  body:active, a:active { cursor: url('/images/cursor-robot-active.svg') 14 12, auto; }
 }
 
 /* interactive perception layer — above content, below the nav */
