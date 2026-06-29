@@ -29,6 +29,8 @@ redirect_from:
 <section id="news" class="section reveal">
   <p class="eyebrow">Recent News</p>
   <ul class="timeline">
+    <li><time>2026-06</time><p class="entry">We release <a href="https://arxiv.org/abs/2606.20905" target="_blank" rel="noopener">Vesta</a>, a generalist embodied-reasoning foundation model that consolidates localization, spatial reasoning, navigation, and long-horizon planning into a single system. With curated embodied data and a multimodal memory harness, it surpasses the strongest specialist baselines by over 20% on average and improves memory-heavy real-robot tasks by 38.3%.</p></li>
+    <li><time>2026-05</time><p class="entry">We release <a href="https://research.nvidia.com/labs/lpr/locate-anything/" target="_blank" rel="noopener">LocateAnything</a>, a unified vision-language model for fast, high-quality visual grounding. Its Parallel Box Decoding predicts whole bounding boxes in a single pass — up to 2.5× higher throughput — across object detection, GUI grounding, and document/OCR localization. The model is available on <a href="https://huggingface.co/nvidia/LocateAnything-3B" target="_blank" rel="noopener">Hugging Face</a>.</p></li>
     <li><time>2025-03</time><p class="entry"><a href="https://arxiv.org/pdf/2501.14818" target="_blank" rel="noopener">Eagle2</a> has been adopted by NVIDIA GEAR Team to develop robotic foundation model <a href="https://research.nvidia.com/publication/2025-03_nvidia-isaac-gr00t-n1-open-foundation-model-humanoid-robots" target="_blank" rel="noopener">GR00T N1</a>.</p></li>
     <li><time>2025-01</time><p class="entry">We present the frontier VLM, <a href="https://arxiv.org/pdf/2501.14818" target="_blank" rel="noopener">Eagle2</a>, and the model weights have been released on <a href="https://huggingface.co/nvidia/Eagle2-9B" target="_blank" rel="noopener">Hugging Face</a>.</p></li>
     <li><time>2024-11</time><p class="entry"><a href="https://www.computer.org/csdl/journal/tp/2025/03/10791908/22ABgP6PlUQ" target="_blank" rel="noopener">BEVFormer</a> was accepted at T-PAMI.</p></li>
@@ -48,18 +50,116 @@ redirect_from:
   <p class="eyebrow">Selected Publications</p>
   <div class="pubs">
     <article class="pub">
-      <div class="pub__media">
-        <span class="pub__badge">Arxiv</span>
-        <img src="{{ '/images/eagle2.png' | relative_url }}" alt="Eagle 2">
+      <div class="pub__media"><img src="{{ '/images/pub-vesta.svg' | relative_url }}" alt="Vesta"></div>
+      <div class="pub__body">
+        <h3 class="pub__title"><a href="https://arxiv.org/abs/2606.20905" target="_blank" rel="noopener">Vesta: A Generalist Embodied Reasoning Model</a></h3>
+        <p class="pub__authors">Johan Bjorck, <span class="me">Zhiqi Li</span>, Yunze Man, Jing Wang, An-Chieh Cheng, Sifei Liu, et al.</p>
+        <p class="pub__venue">arXiv · 2026</p>
+        <div class="pub__links">
+          <a class="pub__link" href="https://arxiv.org/abs/2606.20905" target="_blank" rel="noopener">PDF</a>
+        </div>
       </div>
+    </article>
+
+    <article class="pub">
+      <div class="pub__media"><img src="{{ '/images/pub-locateanything.svg' | relative_url }}" alt="LocateAnything"></div>
+      <div class="pub__body">
+        <h3 class="pub__title"><a href="https://arxiv.org/pdf/2605.27365" target="_blank" rel="noopener">LocateAnything: Fast and High-Quality Vision-Language Grounding with Parallel Box Decoding</a></h3>
+        <p class="pub__authors">Shihao Wang, Shilong Liu, Yuanguo Kuang, Xinyu Wei, Yangzhou Liu, <span class="me">Zhiqi Li</span>, Yunze Man, Guo Chen, Andrew Tao, Guilin Liu, Jan Kautz, Lei Zhang, Zhiding Yu</p>
+        <p class="pub__venue">arXiv · 2026</p>
+        <div class="pub__links">
+          <a class="pub__link" href="https://arxiv.org/pdf/2605.27365" target="_blank" rel="noopener">PDF</a>
+          <a class="pub__link" href="https://huggingface.co/nvidia/LocateAnything-3B" target="_blank" rel="noopener">Model</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="pub__media"><img src="{{ '/images/pub-eagle25.svg' | relative_url }}" alt="Eagle 2.5"></div>
+      <div class="pub__body">
+        <h3 class="pub__title"><a href="https://arxiv.org/pdf/2504.15271" target="_blank" rel="noopener">Eagle 2.5: Boosting Long-Context Post-Training for Frontier Vision-Language Models</a></h3>
+        <p class="pub__authors">Guo Chen, <span class="me">Zhiqi Li</span>, Shihao Wang, Jindong Jiang, Yicheng Liu, Lidong Lu, De-An Huang, Wonmin Byeon, Matthieu Le, et al.</p>
+        <p class="pub__venue">NeurIPS · 2026</p>
+        <div class="pub__links">
+          <a class="pub__link" href="https://arxiv.org/pdf/2504.15271" target="_blank" rel="noopener">PDF</a>
+          <a class="pub__link" href="https://github.com/NVlabs/EAGLE" target="_blank" rel="noopener">Code</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="pub__media"><img src="{{ '/images/pub-eagle2.svg' | relative_url }}" alt="Eagle 2"></div>
       <div class="pub__body">
         <h3 class="pub__title"><a href="https://arxiv.org/pdf/2501.14818" target="_blank" rel="noopener">Eagle 2: Building Post-Training Data Strategies from Scratch for Frontier Vision-Language Models</a></h3>
-        <p class="pub__authors"><span class="me">Zhiqi Li</span>, Guo Chen, Shilong Liu, Shihao Wang, Vibashan VS, Yishen Ji, Shiyi Lan, Hao Zhang, Yilin Zhao, Subhashree Radhakrishnan, Nadine Chang, Karan Sapra, Amala Sanjay Deshmukh, Tuomas Rintamaki, Matthieu Le, Ilia Karmanov, Lukas Voegtle, Philipp Fischer, De-An Huang, Timo Roman, Tong Lu, Jose M Alvarez, Bryan Catanzaro, Jan Kautz, Andrew Tao, Guilin Liu, Zhiding Yu</p>
-        <p class="pub__desc">Develops open-source vision-language models by emphasizing data strategy in post-training, resulting in the performant Eagle2 models that achieve state-of-the-art results across various multimodal benchmarks.</p>
+        <p class="pub__authors"><span class="me">Zhiqi Li</span>, Guo Chen, Shilong Liu, Shihao Wang, Vibashan VS, Yishen Ji, Shiyi Lan, et al.</p>
+        <p class="pub__venue">arXiv · 2025</p>
         <div class="pub__links">
           <a class="pub__link" href="https://arxiv.org/pdf/2501.14818" target="_blank" rel="noopener">PDF</a>
           <a class="pub__link" href="https://github.com/NVlabs/EAGLE" target="_blank" rel="noopener">Code</a>
-          <span class="pub__cite show_paper_citations" data="DhtAFkwAAAAJ:ALROH1vI_8AC"></span>
+        </div>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="pub__media"><img src="{{ '/images/pub-dcnv4.svg' | relative_url }}" alt="DCNv4"></div>
+      <div class="pub__body">
+        <h3 class="pub__title"><a href="https://arxiv.org/pdf/2401.06197v1.pdf" target="_blank" rel="noopener">Efficient Deformable ConvNets: Rethinking Dynamic and Sparse Operator for Vision Applications</a></h3>
+        <p class="pub__authors">Yuwen Xiong, <span class="me">Zhiqi Li</span>, Yuntao Chen, Feng Wang, Xizhou Zhu, Jiapeng Luo, Wenhai Wang, Tong Lu, Hongsheng Li, Yu Qiao, et al.</p>
+        <p class="pub__venue">CVPR · 2024</p>
+        <div class="pub__links">
+          <a class="pub__link" href="https://arxiv.org/pdf/2401.06197v1.pdf" target="_blank" rel="noopener">PDF</a>
+          <a class="pub__link" href="https://github.com/OpenGVLab/DCNv4" target="_blank" rel="noopener">Code</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="pub__media"><img src="{{ '/images/pub-bevplanner.svg' | relative_url }}" alt="BEV-Planner"></div>
+      <div class="pub__body">
+        <h3 class="pub__title"><a href="https://arxiv.org/pdf/2312.03031.pdf" target="_blank" rel="noopener">Is Ego Status All You Need for Open-Loop End-to-End Autonomous Driving?</a></h3>
+        <p class="pub__authors"><span class="me">Zhiqi Li</span>, Zhiding Yu, Shiyi Lan, Jiahan Li, Jan Kautz, Tong Lu, Jose M. Alvarez</p>
+        <p class="pub__venue">CVPR · 2024</p>
+        <div class="pub__links">
+          <a class="pub__link" href="https://arxiv.org/pdf/2312.03031.pdf" target="_blank" rel="noopener">PDF</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="pub__media"><img src="{{ '/images/pub-fbbev.svg' | relative_url }}" alt="FB-BEV"></div>
+      <div class="pub__body">
+        <h3 class="pub__title"><a href="https://arxiv.org/pdf/2308.02236.pdf" target="_blank" rel="noopener">FB-BEV: BEV Representation from Forward-Backward View Transformations</a></h3>
+        <p class="pub__authors"><span class="me">Zhiqi Li</span>, Zhiding Yu, Wenhai Wang, Anima Anandkumar, Tong Lu, Jose M. Alvarez</p>
+        <p class="pub__venue">ICCV · 2023</p>
+        <div class="pub__links">
+          <a class="pub__link" href="https://arxiv.org/pdf/2308.02236.pdf" target="_blank" rel="noopener">PDF</a>
+          <a class="pub__link" href="https://github.com/NVlabs/FB-BEV" target="_blank" rel="noopener">Code</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="pub__media"><img src="{{ '/images/pub-internimage.svg' | relative_url }}" alt="InternImage"></div>
+      <div class="pub__body">
+        <h3 class="pub__title"><a href="https://arxiv.org/pdf/2211.05778.pdf" target="_blank" rel="noopener">InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions</a></h3>
+        <p class="pub__authors">Wenhai Wang, Jifeng Dai, Zhe Chen, Zhenhang Huang, <span class="me">Zhiqi Li</span>, Xizhou Zhu, Xiaowei Hu, Tong Lu, Lewei Lu, Hongsheng Li, Xiaogang Wang, Yu Qiao</p>
+        <p class="pub__venue">CVPR 2023 · Top-10 Influential Paper</p>
+        <div class="pub__links">
+          <a class="pub__link" href="https://arxiv.org/pdf/2211.05778.pdf" target="_blank" rel="noopener">PDF</a>
+          <a class="pub__link" href="https://github.com/OpenGVLab/InternImage" target="_blank" rel="noopener">Code</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="pub__media"><img src="{{ '/images/pub-bevformer.svg' | relative_url }}" alt="BEVFormer"></div>
+      <div class="pub__body">
+        <h3 class="pub__title"><a href="https://arxiv.org/pdf/2203.17270.pdf" target="_blank" rel="noopener">BEVFormer: Learning Bird's-Eye-View Representation from Multi-Camera Images via Spatiotemporal Transformers</a></h3>
+        <p class="pub__authors"><span class="me">Zhiqi Li</span>, Wenhai Wang, Hongyang Li, Enze Xie, Chonghao Sima, Tong Lu, Yu Qiao, Jifeng Dai</p>
+        <p class="pub__venue">ECCV 2022 · Top-10 Influential Paper</p>
+        <div class="pub__links">
+          <a class="pub__link" href="https://arxiv.org/pdf/2203.17270.pdf" target="_blank" rel="noopener">PDF</a>
+          <a class="pub__link" href="https://github.com/fundamentalvision/BEVFormer" target="_blank" rel="noopener">Code</a>
         </div>
       </div>
     </article>
@@ -82,7 +182,7 @@ redirect_from:
 <section id="education" class="section reveal">
   <p class="eyebrow">Education</p>
   <ul class="timeline">
-    <li><time>2020 — now</time><p class="entry">Ph.D., Computer Science · Nanjing University, China</p></li>
+    <li><time>2020 — 2025</time><p class="entry">Ph.D., Computer Science · Nanjing University, China</p></li>
     <li><time>2016 — 2020</time><p class="entry">B.Sc. · Nanjing University, China</p></li>
   </ul>
 </section>

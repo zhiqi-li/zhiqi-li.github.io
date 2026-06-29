@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" role="img" aria-label="FB-BEV">
+  <rect width="360" height="240" fill="#f3f2ef"/>
+  <g stroke="#17171a" stroke-opacity="0.45" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="196" y1="92" x2="320" y2="92"/>
+    <polyline points="308,82 320,92 308,102"/>
+    <line x1="328" y1="140" x2="204" y2="140"/>
+    <polyline points="216,130 204,140 216,150"/>
+  </g>
+  <g stroke="#17171a" stroke-opacity="0.12" fill="none" stroke-width="1">
+    <rect x="196" y="64" width="132" height="104" rx="6"/>
+    <line x1="262" y1="64" x2="262" y2="168"/>
+  </g>
+  <text x="24" y="40" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12.5" letter-spacing="1" fill="#8a8a90">ICCV 2023</text>
+  <text x="23" y="210" font-family="-apple-system,Helvetica,Arial,sans-serif" font-weight="700" font-size="30" letter-spacing="-0.6" fill="#17171a">FB-BEV</text>
+</svg>

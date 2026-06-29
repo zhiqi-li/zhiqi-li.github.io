@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" role="img" aria-label="DCNv4">
+  <rect width="360" height="240" fill="#f3f2ef"/>
+  <g stroke="#17171a" stroke-opacity="0.10" fill="none" stroke-width="1">
+    <line x1="196" y1="62" x2="332" y2="62"/>
+    <line x1="196" y1="98" x2="332" y2="98"/>
+    <line x1="196" y1="134" x2="332" y2="134"/>
+    <line x1="196" y1="170" x2="332" y2="170"/>
+    <line x1="210" y1="48" x2="210" y2="184"/>
+    <line x1="251" y1="48" x2="251" y2="184"/>
+    <line x1="292" y1="48" x2="292" y2="184"/>
+  </g>
+  <g fill="#17171a" fill-opacity="0.20">
+    <circle cx="214" cy="58" r="3"/><circle cx="258" cy="72" r="3"/><circle cx="298" cy="60" r="3"/>
+    <circle cx="206" cy="104" r="3"/><circle cx="256" cy="126" r="3.4"/><circle cx="300" cy="100" r="3"/>
+    <circle cx="222" cy="150" r="3"/><circle cx="248" cy="160" r="3"/><circle cx="296" cy="146" r="3"/>
+    <circle cx="270" cy="178" r="3"/>
+  </g>
+  <text x="24" y="40" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12.5" letter-spacing="1" fill="#8a8a90">CVPR 2024</text>
+  <text x="23" y="210" font-family="-apple-system,Helvetica,Arial,sans-serif" font-weight="700" font-size="30" letter-spacing="-0.6" fill="#17171a">DCNv4</text>
+</svg>

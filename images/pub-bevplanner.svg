@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" role="img" aria-label="BEV-Planner">
+  <rect width="360" height="240" fill="#f3f2ef"/>
+  <g stroke="#17171a" stroke-opacity="0.12" fill="none" stroke-width="1">
+    <line x1="188" y1="190" x2="338" y2="190"/>
+    <line x1="200" y1="190" x2="232" y2="60"/>
+    <line x1="326" y1="190" x2="294" y2="60"/>
+  </g>
+  <path d="M256 188 C 256 150, 238 120, 252 92 C 262 72, 286 66, 300 56" stroke="#17171a" stroke-opacity="0.5" stroke-width="1.6" fill="none" stroke-dasharray="2 5" stroke-linecap="round"/>
+  <rect x="249" y="186" width="14" height="9" rx="2" fill="#17171a" fill-opacity="0.45"/>
+  <circle cx="300" cy="56" r="3.4" fill="#17171a" fill-opacity="0.5"/>
+  <text x="24" y="40" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12.5" letter-spacing="1" fill="#8a8a90">CVPR 2024</text>
+  <text x="23" y="210" font-family="-apple-system,Helvetica,Arial,sans-serif" font-weight="700" font-size="26" letter-spacing="-0.6" fill="#17171a">BEV-Planner</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" role="img" aria-label="Eagle 2">
+  <rect width="360" height="240" fill="#f3f2ef"/>
+  <g stroke="#17171a" stroke-opacity="0.13" fill="none" stroke-width="1.1">
+    <polygon points="262,38 330,77 330,155 262,194 194,155 194,77"/>
+    <polygon points="262,76 305,90 288,135 262,168 219,140 225,99"/>
+    <line x1="262" y1="116" x2="262" y2="38"/>
+    <line x1="262" y1="116" x2="330" y2="77"/>
+    <line x1="262" y1="116" x2="330" y2="155"/>
+    <line x1="262" y1="116" x2="262" y2="194"/>
+    <line x1="262" y1="116" x2="194" y2="155"/>
+    <line x1="262" y1="116" x2="194" y2="77"/>
+  </g>
+  <polygon points="262,76 305,90 288,135 262,168 219,140 225,99" fill="#17171a" fill-opacity="0.05"/>
+  <text x="24" y="40" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12.5" letter-spacing="1" fill="#8a8a90">ARXIV 2025</text>
+  <text x="23" y="210" font-family="-apple-system,Helvetica,Arial,sans-serif" font-weight="700" font-size="30" letter-spacing="-0.6" fill="#17171a">Eagle 2</text>
+</svg>

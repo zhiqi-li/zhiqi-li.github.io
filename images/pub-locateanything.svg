@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" role="img" aria-label="LocateAnything">
+  <rect width="360" height="240" fill="#f3f2ef"/>
+  <g fill="none" stroke-width="1.4">
+    <rect x="204" y="70" width="86" height="64" rx="2" stroke="#17171a" stroke-opacity="0.30"/>
+    <rect x="252" y="104" width="74" height="62" rx="2" stroke="#17171a" stroke-opacity="0.20"/>
+    <rect x="220" y="128" width="42" height="40" rx="2" stroke="#17171a" stroke-opacity="0.16"/>
+  </g>
+  <g fill="#17171a" fill-opacity="0.40">
+    <rect x="200" y="66" width="7" height="7"/><rect x="286" y="66" width="7" height="7"/>
+    <rect x="200" y="130" width="7" height="7"/><rect x="286" y="130" width="7" height="7"/>
+  </g>
+  <text x="24" y="40" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12.5" letter-spacing="1" fill="#8a8a90">ARXIV 2026</text>
+  <text x="23" y="210" font-family="-apple-system,Helvetica,Arial,sans-serif" font-weight="700" font-size="22" letter-spacing="-0.6" fill="#17171a">LocateAnything</text>
+</svg>

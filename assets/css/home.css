@@ -238,10 +238,10 @@ section[id] { scroll-margin-top: 84px; }
 }
 
 /* --- publications --------------------------------------------------------- */
-.pubs { display: grid; gap: 18px; }
+.pubs { display: grid; gap: 16px; }
 .pub {
   display: grid;
-  grid-template-columns: 168px 1fr;
+  grid-template-columns: 152px 1fr;
   gap: 22px;
   padding: 18px;
   border: 1px solid var(--line);
@@ -255,31 +255,22 @@ section[id] { scroll-margin-top: 84px; }
   border-color: rgba(20, 20, 26, 0.16);
 }
 .pub__media {
-  position: relative;
   border-radius: 9px;
   overflow: hidden;
   background: var(--wash);
   align-self: start;
+  border: 1px solid var(--line-soft);
+  aspect-ratio: 3 / 2;
 }
-.pub__media img { width: 100%; height: auto; }
-.pub__badge {
-  position: absolute; top: 8px; left: 8px;
-  font-family: var(--mono);
-  font-size: 0.62rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  padding: 3px 8px;
-  border-radius: 999px;
-  background: rgba(23, 23, 26, 0.86);
-  color: #fff;
-}
+.pub__media img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .pub__title {
   margin: 2px 0 0;
   font-size: 1.05rem;
   font-weight: 600;
   letter-spacing: -0.01em;
-  line-height: 1.35;
+  line-height: 1.4;
 }
+.pub__title a { transition: color .2s ease; }
 .pub__title a:hover { color: var(--graphite); }
 .pub__authors {
   margin: 8px 0 0;
@@ -288,9 +279,16 @@ section[id] { scroll-margin-top: 84px; }
   line-height: 1.55;
 }
 .pub__authors .me { color: var(--ink); font-weight: 600; }
-.pub__desc { margin: 10px 0 0; font-size: 0.92rem; color: var(--ink-soft); }
+.pub__venue {
+  margin: 9px 0 0;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
 .pub__links {
-  margin-top: 12px;
+  margin-top: 11px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -308,10 +306,9 @@ section[id] { scroll-margin-top: 84px; }
   transition: background .2s ease, border-color .2s ease, color .2s ease;
 }
 .pub__link:hover { background: var(--ink); color: #fff; border-color: var(--ink); }
-.pub__cite { color: var(--ink-faint); letter-spacing: 0.02em; }
 @media (max-width: 540px) {
   .pub { grid-template-columns: 1fr; }
-  .pub__media { max-width: 220px; }
+  .pub__media { max-width: 240px; }
 }
 
 /* --- footer --------------------------------------------------------------- */
