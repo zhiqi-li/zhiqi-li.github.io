@@ -216,12 +216,19 @@ main { counter-reset: section; }
   color: var(--graphite);
 }
 .section > p:not(.eyebrow) { margin: 0 0 1.1em; }
-.section a:not(.pub__link) {
+.lede a, .entry a, .callout__text a {
   color: var(--ink);
-  border-bottom: 1px solid var(--line);
-  transition: border-color .2s ease, color .2s ease;
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: rgba(20, 20, 26, 0.35);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: text-decoration-color .2s ease, color .2s ease, background-color .2s ease;
 }
-.section a:not(.pub__link):hover { color: var(--graphite); border-bottom-color: var(--graphite); }
+.lede a:hover, .entry a:hover, .callout__text a:hover {
+  color: var(--graphite);
+  text-decoration-color: var(--graphite);
+}
 .section strong { font-weight: 600; }
 
 /* About prose runs a touch larger */
