@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }}{% if page.title and page.title != "" %} · {{ page.title }}{% endif %}</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta name="author" content="{{ site.author.name }}">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:type" content="profile">
+  <meta property="og:image" content="{{ '/' | append: site.author.avatar | relative_url }}">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/images/favicon-32x32.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/images/favicon-16x16.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/images/apple-touch-icon.png' | relative_url }}">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;600;650;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.4/css/academicons.min.css">
+
+  <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
+</head>
+<body>
+
+  {% assign a = site.author %}
+
+  <!-- ===================== NAV ===================== -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a class="nav__brand" href="#top">{{ a.name }}</a>
+      <ul class="nav__links">
+        <li class="nav__link"><a href="#about">About</a></li>
+        <li class="nav__link"><a href="#news">News</a></li>
+        <li class="nav__link"><a href="#publications">Papers</a></li>
+        <li class="nav__link"><a href="#honors">Awards</a></li>
+        <li class="nav__sep" aria-hidden="true"></li>
+        <li><a class="nav__icon" href="{{ a.googlescholar }}" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <header class="hero wrap" id="top">
+    <img class="hero__avatar reveal" src="{{ '/' | append: a.avatar | relative_url }}" alt="{{ a.name }}">
+    <h1 class="hero__name reveal">{{ a.name }}</h1>
+    <p class="hero__role reveal">
+      Research Scientist<span class="sep">·</span><span class="place">{{ a.bio }}, {{ a.location }}</span>
+    </p>
+    <p class="hero__tagline reveal">{{ site.description }}</p>
+    <div class="hero__meta reveal">
+      <span><b id="total_cit">—</b>&nbsp;citations</span>
+      <span class="dot">·</span>
+      <span><b>3×</b>&nbsp;CVPR Champion</span>
+      <span class="dot">·</span>
+      <span>NVIDIA&nbsp;<b>PhD Fellow</b></span>
+      <span class="dot">·</span>
+      <span class="hero__social">
+        <a href="{{ a.googlescholar }}" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+        <a href="https://github.com/{{ a.github }}" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="mailto:{{ a.email }}" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+      </span>
+    </div>
+  </header>
+
+  <!-- ===================== BODY ===================== -->
+  <main class="wrap">
+    {{ content }}
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer wrap">
+    <span>© {{ site.time | date: "%Y" }} {{ a.name }}</span>
+    <span>{{ a.location }} · <a href="mailto:{{ a.email }}">{{ a.email }}</a></span>
+  </footer>
+
+  <!-- ===================== SCRIPTS ===================== -->
+  <script>
+    // Nav: shadow on scroll + active-section highlight
+    (function () {
+      var nav = document.getElementById('nav');
+      var onScroll = function () {
+        nav.classList.toggle('is-scrolled', window.scrollY > 8);
+      };
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+
+      var links = Array.prototype.slice.call(document.querySelectorAll('.nav__links a[href^="#"]'));
+      var map = {};
+      links.forEach(function (l) {
+        var id = l.getAttribute('href').slice(1);
+        var sec = document.getElementById(id);
+        if (sec) map[id] = l;
+      });
+      var spy = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) {
+            links.forEach(function (l) { l.classList.remove('is-active'); });
+            if (map[e.target.id]) map[e.target.id].classList.add('is-active');
+          }
+        });
+      }, { rootMargin: '-45% 0px -50% 0px' });
+      Object.keys(map).forEach(function (id) { spy.observe(document.getElementById(id)); });
+    })();
+
+    // Entrance animation
+    (function () {
+      var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var items = Array.prototype.slice.call(document.querySelectorAll('.reveal'));
+      if (reduce || !('IntersectionObserver' in window)) {
+        items.forEach(function (el) { el.classList.add('is-in'); });
+        return;
+      }
+      // hero reveals immediately on load
+      requestAnimationFrame(function () {
+        document.querySelectorAll('.hero .reveal').forEach(function (el) { el.classList.add('is-in'); });
+      });
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); }
+        });
+      }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+      items.forEach(function (el) {
+        if (!el.closest('.hero')) io.observe(el);
+      });
+    })();
+
+    // Google Scholar citation counts (vanilla; replaces jQuery version)
+    (function () {
+      var base = {% if site.google_scholar_stats_use_cdn %}'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'{% else %}'https://raw.githubusercontent.com/{{ site.repository }}/'{% endif %};
+      fetch(base + 'google-scholar-stats/gs_data.json')
+        .then(function (r) { return r.json(); })
+        .then(function (data) {
+          var total = document.getElementById('total_cit');
+          if (total && data.citedby != null) total.textContent = data.citedby;
+          document.querySelectorAll('.show_paper_citations').forEach(function (el) {
+            var id = el.getAttribute('data');
+            var pub = data.publications && data.publications[id];
+            if (pub && pub.num_citations != null) el.textContent = 'Citations: ' + pub.num_citations;
+          });
+        })
+        .catch(function () {});
+    })();
+  </script>
+
+</body>
+</html>
